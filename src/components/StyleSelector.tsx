@@ -1,5 +1,7 @@
 "use client";
 
+import { trackStyleSelect } from "@/lib/tracking";
+
 export type RoomStyle = "modern" | "scandinavian" | "minimalist" | "industrial" | "bohemian";
 
 interface StyleSelectorProps {
@@ -39,13 +41,16 @@ export default function StyleSelector({ selectedStyle, onSelect }: StyleSelector
   return (
     <div className="w-full">
       <h3 className="text-lg font-medium text-slate-200 mb-4">Select a Style</h3>
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
         {styles.map((style) => (
-          <button
-            key={style.id}
-            type="button"
-            onClick={() => onSelect(style.id)}
-            className={`relative flex flex-col items-center justify-center p-4 rounded-xl border transition-all duration-200 overflow-hidden ${
+           <button
+             key={style.id}
+             type="button"
+             onClick={() => {
+               trackStyleSelect(style.id);
+               onSelect(style.id);
+             }}
+            className={`relative flex flex-col items-center justify-center p-4 min-h-[44px] rounded-xl border transition-all duration-200 overflow-hidden ${
               selectedStyle === style.id
                 ? "border-indigo-500 ring-2 ring-indigo-500 ring-offset-2 ring-offset-slate-900 bg-slate-800"
                 : "border-slate-700 hover:border-indigo-400 bg-slate-800/50 hover:bg-slate-800"

@@ -224,7 +224,7 @@ export default function ResultPage() {
             </div>
 
             <div className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-3xl overflow-hidden shadow-sm mb-8">
-              <div className="flex flex-col md:flex-row">
+              <div className="flex flex-col md:flex-row gap-4">
                 <div className="w-full md:w-1/3 border-b md:border-b-0 md:border-r border-zinc-200 dark:border-zinc-800 p-6 flex flex-col">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="font-semibold text-zinc-900 dark:text-zinc-100">BEFORE</h3>

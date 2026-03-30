@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { RoomStyle } from "./StyleSelector";
 import { RoomType } from "./RoomTypeSelector";
+import { trackCheckoutStart, trackPurchaseComplete } from "@/lib/tracking";
 
 declare global {
   interface Window {
@@ -58,6 +59,8 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
         throw new Error("Razorpay SDK not available");
       }
 
+      trackCheckoutStart(style, roomType);
+
       const options = {
         key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID!,
         amount,
@@ -82,6 +85,8 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
             const { verified } = await verifyRes.json();
 
             if (verified) {
+              trackPurchaseComplete(response.razorpay_payment_id, amount);
+
               const formData = new FormData();
               formData.append("file", file);
 
@@ -152,7 +157,7 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
         type="button"
         onClick={handlePayment}
         disabled={loading || !file}
-        className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-lg py-4 rounded-xl transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 shadow-lg shadow-indigo-500/20"
+        className="w-full min-h-[52px] bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-lg py-4 rounded-xl transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 shadow-lg shadow-indigo-500/20"
       >
         {loading ? (
           <>
@@ -188,6 +193,30 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
         <span>•</span>
         <span>Results in 30 seconds</span>
       </div>
+
+      {/* Mobile sticky CTA */}
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-slate-900 border-t border-slate-700 p-3">
+        <button
+          type="button"
+          onClick={handlePayment}
+          disabled={loading || !file}
+          className="w-full bg-indigo-600 hover:bg-indigo-500 text-white py-3 rounded-lg font-semibold min-h-[52px] disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+        >
+          {loading ? (
+            <>
+              <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+              </svg>
+              Processing...
+            </>
+          ) : (
+            "Redesign My Room — ₹749"
+          )}
+        </button>
+      </div>
+      {/* Spacer for sticky CTA */}
+      <div className="h-20 md:hidden" />
     </div>
   );
 }

@@ -65,7 +65,7 @@ export default function RoomTypeSelector({ selectedType, onSelect }: RoomTypeSel
             key={type.id}
             type="button"
             onClick={() => onSelect(type.id)}
-            className={`flex items-center gap-3 p-3 rounded-xl border transition-all duration-200 ${
+            className={`flex items-center gap-3 p-3 min-h-[44px] rounded-xl border transition-all duration-200 ${
               selectedType === type.id
                 ? "border-indigo-500 bg-indigo-500/10 text-indigo-400"
                 : "border-slate-700 bg-slate-800/50 text-slate-300 hover:border-indigo-400 hover:bg-slate-800"

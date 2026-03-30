@@ -2,6 +2,7 @@
 
 import { useState, useRef, DragEvent, ChangeEvent } from "react";
 import Image from "next/image";
+import { trackImageUpload } from "@/lib/tracking";
 
 interface RoomUploadProps {
   onFileSelect: (file: File | null) => void;
@@ -40,6 +41,7 @@ export default function RoomUpload({ onFileSelect, selectedFile }: RoomUploadPro
 
     const url = URL.createObjectURL(file);
     setPreviewUrl(url);
+    trackImageUpload();
     onFileSelect(file);
   };
 
@@ -71,7 +73,7 @@ export default function RoomUpload({ onFileSelect, selectedFile }: RoomUploadPro
     <div className="w-full">
       <button
         type="button"
-        className={`relative w-full h-64 rounded-xl border-2 border-dashed transition-all duration-200 flex flex-col items-center justify-center cursor-pointer overflow-hidden ${
+        className={`relative w-full min-h-[120px] h-64 rounded-xl border-2 border-dashed transition-all duration-200 flex flex-col items-center justify-center cursor-pointer overflow-hidden ${
           isDragging
             ? "border-indigo-500 bg-indigo-500/10"
             : previewUrl
@@ -103,7 +105,7 @@ export default function RoomUpload({ onFileSelect, selectedFile }: RoomUploadPro
               <button
                 type="button"
                 onClick={handleRemove}
-                className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg font-medium transition-colors"
+                className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 min-h-[44px] rounded-lg font-medium transition-colors"
               >
                 Remove Photo
               </button>
