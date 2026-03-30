@@ -5,6 +5,32 @@ import RoomUpload from "@/components/RoomUpload";
 import StyleSelector, { RoomStyle } from "@/components/StyleSelector";
 import RoomTypeSelector, { RoomType } from "@/components/RoomTypeSelector";
 import PaymentCTA from "@/components/PaymentCTA";
+import { buildFaqJsonLd } from "@/lib/geo";
+
+const TOOL_FAQS = [
+  {
+    question: "How does AI room redesign work?",
+    answer:
+      "Upload your room photo, select a design style, and our AI transforms your space in under 30 seconds.",
+  },
+  {
+    question: "How much does AI room redesign cost?",
+    answer:
+      "Each AI room redesign costs ₹749. No subscription required — pay only for what you use.",
+  },
+  {
+    question: "What interior design styles are available?",
+    answer:
+      "We offer 5 styles: Modern, Scandinavian, Minimalist, Industrial, and Bohemian.",
+  },
+  {
+    question: "Can I redesign any room?",
+    answer:
+      "Yes — living rooms, bedrooms, kitchens, bathrooms, and home offices are all supported.",
+  },
+];
+
+const faqJsonLd = buildFaqJsonLd(TOOL_FAQS);
 
 export default function RoomRedesignPage() {
   const [file, setFile] = useState<File | null>(null);
@@ -14,6 +40,10 @@ export default function RoomRedesignPage() {
 
   return (
     <main className="min-h-screen bg-slate-900 text-slate-300 py-12 px-4 sm:px-6 lg:px-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-white mb-4 tracking-tight">
@@ -75,6 +105,25 @@ export default function RoomRedesignPage() {
             </section>
           </div>
         </div>
+
+        <section className="mt-16">
+          <h2 className="text-2xl font-bold text-white mb-8 text-center">
+            Frequently Asked Questions About AI Room Redesign
+          </h2>
+          <div className="space-y-6">
+            {TOOL_FAQS.map((faq) => (
+              <div
+                key={faq.question}
+                className="border border-slate-700 rounded-xl p-6"
+              >
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  {faq.question}
+                </h3>
+                <p className="text-slate-400 leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
     </main>
   );

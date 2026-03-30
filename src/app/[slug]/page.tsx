@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { buildFaqJsonLd } from "@/lib/geo";
 
 const STYLES = [
   "modern",
@@ -368,7 +369,16 @@ export default async function SEOPage({
   const styleLabel = sd.adjective;
   const roomLabel = rd.label;
 
+  const faqJsonLd = buildFaqJsonLd(
+    sd.faqs.map(faq => ({ question: faq.q, answer: faq.a }))
+  );
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
     <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <section className="bg-gradient-to-br from-indigo-50 to-white dark:from-indigo-950 dark:to-zinc-950 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
@@ -412,7 +422,7 @@ export default async function SEOPage({
 
         <section>
           <h2 className="text-2xl font-bold mb-4">
-            Key Elements of {styleLabel} {roomLabel} Design
+            What Are the Key Elements of {styleLabel} {roomLabel} Design?
           </h2>
           <ul className="space-y-3">
             {sd.keyElements.map((element, i) => (
@@ -428,7 +438,7 @@ export default async function SEOPage({
 
         <section>
           <h2 className="text-2xl font-bold mb-4">
-            How to Achieve {styleLabel} {roomLabel} Design with AI
+            How Do I Achieve {styleLabel} {roomLabel} Design with AI?
           </h2>
           <p className="text-zinc-600 dark:text-zinc-400 mb-6">
             {rd.benefit} Here is how it works in three steps:
@@ -449,7 +459,7 @@ export default async function SEOPage({
 
         <section>
           <h2 className="text-2xl font-bold mb-4">
-            {styleLabel} {roomLabel} Design Ideas to Try
+            What {styleLabel} {roomLabel} Design Ideas Should I Try?
           </h2>
           <div className="grid gap-4">
             {sd.ideas.map((idea, i) => (
@@ -489,7 +499,7 @@ export default async function SEOPage({
 
         <section>
           <h2 className="text-2xl font-bold mb-6">
-            {styleLabel} {roomLabel} Design — Frequently Asked Questions
+            What Are Frequently Asked Questions About {styleLabel} {roomLabel} Design?
           </h2>
           <div className="space-y-6">
             {sd.faqs.map((faq) => (
@@ -535,5 +545,6 @@ export default async function SEOPage({
         </section>
       </div>
     </main>
+    </>
   );
 }
