@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "vitest run"
+    "test": "vitest run",
+    "submit": "npx tsx scripts/submit-urls.ts"
   },
   "dependencies": {
     "@vercel/blob": "^2.3.2",
