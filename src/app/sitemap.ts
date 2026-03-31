@@ -18,6 +18,8 @@ const BLOG_SLUGS = [
   "best-ai-interior-design-tools",
   "redesign-room-9-dollars",
   "interior-design-styles-explained",
+  "ai-interior-design-2026",
+  "room-redesign-on-a-budget",
   "ai-vs-interior-designer-cost",
   "modern-bedroom-small-apartment",
   "ai-background-remover-ecommerce",

@@ -15,6 +15,16 @@
     .container { max-width: 768px; margin: 0 auto; padding: 4rem 1rem; }
     h1 { color: #fff; font-size: 2.5rem; margin-bottom: 0.5rem; }
     .subtitle { color: #94a3b8; font-size: 1.125rem; margin-bottom: 3rem; }
+    .article-list { list-style: none; padding: 0; }
+    .article-item { border-bottom: 1px solid #1e293b; padding: 1.5rem 0; }
+    .article-item:last-child { border-bottom: none; }
+    .article-title { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.25rem; }
+    .article-title a { color: #e2e8f0; text-decoration: none; }
+    .article-title a:hover { color: #818cf8; }
+    .article-meta { color: #64748b; font-size: 0.875rem; margin-bottom: 0.5rem; }
+    .article-excerpt { color: #94a3b8; font-size: 0.95rem; line-height: 1.6; }
+    .article-link { display: inline-block; margin-top: 0.75rem; color: #818cf8; font-size: 0.875rem; text-decoration: none; font-weight: 500; }
+    .article-link:hover { color: #c7d2fe; }
     .cta { display: inline-block; background: #6366f1; color: #fff; padding: 0.75rem 1.5rem; border-radius: 0.75rem; text-decoration: none; font-weight: 600; margin-top: 2rem; }
     .cta:hover { background: #818cf8; }
     a { color: #818cf8; }
@@ -26,8 +36,31 @@
   <div class="container">
     <h1>AltorLab Blog</h1>
     <p class="subtitle">Interior design tips, AI room redesign guides, and style inspiration.</p>
-    <p style="color: #94a3b8;">Articles coming soon! In the meantime, try our AI Room Redesign tool.</p>
-    <a href="/room-redesign" class="cta">Try AI Room Redesign →</a>
+
+    <ul class="article-list">
+      <li class="article-item">
+        <div class="article-title"><a href="/blog/interior-design-styles-explained/">5 Interior Design Styles Explained — Which One Is Right for Your Room?</a></div>
+        <div class="article-meta">March 30, 2026</div>
+        <p class="article-excerpt">Modern, Scandinavian, Minimalist, Industrial, Bohemian — learn what defines each style, which one fits your home and budget, and how to choose without spending a fortune on furniture you'll regret.</p>
+        <a href="/blog/interior-design-styles-explained/" class="article-link">Read article →</a>
+      </li>
+
+      <li class="article-item">
+        <div class="article-title"><a href="/blog/ai-interior-design-2026/">How AI Is Changing Interior Design in 2026</a></div>
+        <div class="article-meta">March 30, 2026</div>
+        <p class="article-excerpt">AI room redesign tools now let Americans visualize a professional-quality room transformation for $9 instead of $200/hr. Here's how the technology works, who it's for, and where it still falls short.</p>
+        <a href="/blog/ai-interior-design-2026/" class="article-link">Read article →</a>
+      </li>
+
+      <li class="article-item">
+        <div class="article-title"><a href="/blog/room-redesign-on-a-budget/">Room Redesign on a Budget — How to Transform Any Space for Under $50</a></div>
+        <div class="article-meta">March 30, 2026</div>
+        <p class="article-excerpt">7 proven budget redesign tips for American homes, with specific prices from Home Depot, IKEA, and Target. Plus: how a $9 AI preview stops you from wasting money on changes that won't work in your actual space.</p>
+        <a href="/blog/room-redesign-on-a-budget/" class="article-link">Read article →</a>
+      </li>
+    </ul>
+
+    <a href="/room-redesign" class="cta">Try AI Room Redesign — $9 →</a>
   </div>
   <footer>
     <p>© 2026 AltorLab. All rights reserved.</p>
