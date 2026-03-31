@@ -101,9 +101,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...inspirationPages,
     ...budgetPages,
     ...luxuryPages,
-    ...["new-york","los-angeles","chicago","houston","phoenix","philadelphia","san-antonio","san-diego","dallas","san-francisco","austin","seattle","denver","boston","nashville","portland","miami","atlanta","minneapolis","charlotte"].map((city) => ({ url: `${BASE}/ai-interior-design-${city}`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 })),
-    ...["roomgpt","homestyler","havenly","modsy","planner5d","decormatters","roomsketcher"].map((c) => ({ url: `${BASE}/${c}-alternative`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 })),
-    ...["product-photo","profile-picture","passport-photo","ecommerce","social-media","linkedin","real-estate","amazon-listing","etsy-listing","headshot"].map((u) => ({ url: `${BASE}/remove-background-${u}`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 })),
+    ...["new-york","los-angeles","chicago","houston","phoenix","philadelphia","san-antonio","san-diego","dallas","san-francisco","austin","seattle","denver","boston","nashville","portland","miami","atlanta","minneapolis","charlotte"].map((city) => ({ url: `https://app.altorlab.org/ai-interior-design-${city}`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 })),
+    ...["roomgpt","homestyler","havenly","modsy","planner5d","decormatters","roomsketcher"].map((c) => ({ url: `https://app.altorlab.org/${c}-alternative`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 })),
+    ...["product-photo","profile-picture","passport-photo","ecommerce","social-media","linkedin","real-estate","amazon-listing","etsy-listing","headshot"].map((u) => ({ url: `https://app.altorlab.org/remove-background-${u}`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.7 })),
     ...blogPages,
   ];
 }
