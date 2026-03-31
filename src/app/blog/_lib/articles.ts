@@ -27,23 +27,23 @@ export interface BlogArticle {
 export const BLOG_ARTICLES: BlogArticle[] = [
   {
     slug: "best-ai-interior-design-tools",
-    title: "Best AI Interior Design Tools 2026 — India Edition",
+    title: "Best AI Interior Design Tools 2026 — US Edition",
     description:
-      "A practical 2026 guide to the best AI interior design tools for Indian homeowners, renters, and budget-conscious decorators.",
+      "A practical 2026 guide to the best AI interior design tools for American homeowners, renters, and budget-conscious decorators.",
     ctaHref: "/room-redesign",
     ctaLabel: "Try AI Room Redesign",
     ctaText:
-      "Want to test a style on your actual room instead of a mock room? Upload a photo and get an AI redesign from ₹749.",
+      "Want to test a style on your actual room instead of a mock room? Upload a photo and get an AI redesign from $9.",
     publishedTime: "2026-03-30",
     readingTime: "9 min read",
     intro:
-      "AI interior design tools have matured quickly, but the best option still depends on what you are trying to solve. Indian homeowners usually do not need a complex enterprise suite. They need faster visualisation, clearer style direction, and pricing that makes sense for actual home decisions. This guide breaks down what matters, which tool types are genuinely useful, and where AltorLab fits for people who want room-level results without agency-level cost.",
+      "AI interior design tools have matured quickly, but the best option still depends on what you are trying to solve. American homeowners usually do not need a complex enterprise suite. They need faster visualisation, clearer style direction, and pricing that makes sense for actual home decisions. This guide breaks down what matters, which tool types are genuinely useful, and where AltorLab fits for people who want room-level results without agency-level cost.",
     sections: [
       {
-        heading: "Why AI interior design matters more in India now",
+        heading: "Why AI interior design matters more in the US now",
         paragraphs: [
-          "The Indian home-improvement market has become much more visual. People discover styles on Instagram, compare laminates on YouTube, browse Pinterest for modular-kitchen ideas, and then try to translate those references into real apartments with fixed room sizes, utility constraints, and tight budgets. That translation step is where most decisions become slow, expensive, or disappointing. AI interior design tools reduce that gap by showing plausible visual outcomes before civil work or furniture purchases begin.",
-          "This matters even more in Indian cities because homes are often compact and multifunctional. A bedroom may double as a work room. A dining zone may sit inside the living room. A kitchen may need heavy storage because grocery buying patterns differ from western households. Generic inspiration is easy to find, but local applicability is hard. The best AI tools are the ones that can help you visualise your actual room and not just give you abstract style moodboards.",
+          "The American home-improvement market has become much more visual. People discover styles on Instagram, compare laminates on YouTube, browse Pinterest for modular-kitchen ideas, and then try to translate those references into real apartments with fixed room sizes, utility constraints, and tight budgets. That translation step is where most decisions become slow, expensive, or disappointing. AI interior design tools reduce that gap by showing plausible visual outcomes before civil work or furniture purchases begin.",
+          "This matters even more in American cities because homes are often compact and multifunctional. A bedroom may double as a work room. A dining zone may sit inside the living room. A kitchen may need heavy storage because grocery buying patterns differ from western households. Generic inspiration is easy to find, but local applicability is hard. The best AI tools are the ones that can help you visualise your actual room and not just give you abstract style moodboards.",
         ],
       },
       {
@@ -57,14 +57,14 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "What makes a tool genuinely useful instead of just impressive",
         paragraphs: [
           "A lot of AI products demo well and disappoint in reality. The useful ones share a few traits. They are fast enough to support iteration. They keep the interface simple. They do not require professional software knowledge. They make style comparison easy. And most importantly, they produce results that are close enough to real constraints to inform decisions. A spectacular fantasy render that ignores room proportions is entertaining but not very helpful when you are about to spend money.",
-          "Indian users should also evaluate practical criteria: does the price make sense in rupees, is the output good enough for sharing with carpenters or family, does the tool handle common room types, and can it help you move from idea to action? A tool with ten advanced settings is not automatically better if it slows the decision-making process.",
+          "American users should also evaluate practical criteria: does the price make sense in dollars, is the output good enough for sharing with contractors or family, does the tool handle common room types, and can it help you move from idea to action? A tool with ten advanced settings is not automatically better if it slows the decision-making process.",
         ],
       },
       {
         heading: "Where AltorLab fits",
         paragraphs: [
-          "AltorLab is strongest when you want a fast redesign preview of a real room without hiring a designer first. Upload a room photo, choose from core styles like modern, Scandinavian, minimalist, industrial, and bohemian, and get a redesign preview for ₹749. That pricing is small compared with a wrong furniture purchase, a misjudged paint choice, or a false-ceiling idea that looked better online than in your room.",
-          "The product is particularly relevant for Indian apartments because it supports the practical need for quick comparison. You can show two or three directions to family members, compare how different styles sit with your existing windows and flooring, and align more quickly on what feels worth executing. It is not trying to be a full-service interior studio. It is focused on the high-value moment when you need to see a direction clearly.",
+          "AltorLab is strongest when you want a fast redesign preview of a real room without hiring a designer first. Upload a room photo, choose from core styles like modern, Scandinavian, minimalist, industrial, and bohemian, and get a redesign preview for $9. That pricing is small compared with a wrong furniture purchase, a misjudged paint choice, or a ceiling treatment idea that looked better online than in your room.",
+          "The product is particularly relevant for American homes because it supports the practical need for quick comparison. You can show two or three directions to family members, compare how different styles sit with your existing windows and flooring, and align more quickly on what feels worth executing. It is not trying to be a full-service interior studio. It is focused on the high-value moment when you need to see a direction clearly.",
         ],
       },
       {
@@ -85,15 +85,15 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "Best use cases in 2026",
         paragraphs: [
           "In 2026, the best AI interior design tools are especially useful for four groups: renters wanting a fast non-committal refresh, first-time homeowners making style decisions, families aligning on a renovation direction, and small property sellers who want more appealing listing imagery. In each case, the main benefit is speed to clarity. People move faster when they can see options instead of debating abstract descriptions.",
-          "For Indian users, affordability remains the deciding factor. The future belongs to tools that deliver enough confidence to influence a buying or renovation choice without demanding designer-level budgets. That is exactly why simple, room-focused, accessible products are becoming more relevant than flashy software demos built for very different audiences.",
+          "For American users, affordability remains the deciding factor. The future belongs to tools that deliver enough confidence to influence a buying or renovation choice without demanding designer-level budgets. That is exactly why simple, room-focused, accessible products are becoming more relevant than flashy software demos built for very different audiences.",
         ],
       },
     ],
     faqs: [
       {
-        question: "What is the best AI interior design tool for Indian homes?",
+        question: "What is the best AI interior design tool for American homes?",
         answer:
-          "The best option depends on the task, but for room-level visualisation on a budget, tools that let you upload your own room photo are usually the most practical for Indian homes.",
+          "The best option depends on the task, but for room-level visualisation on a budget, tools that let you upload your own room photo are usually the most practical for American homes.",
       },
       {
         question: "Can AI replace an interior designer completely?",
@@ -103,10 +103,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     ],
   },
   {
-    slug: "redesign-room-749-rupees",
-    title: "How to Redesign Your Room for Just ₹749",
+    slug: "redesign-room-9-dollars",
+    title: "How to Redesign Your Room for Just $9",
     description:
-      "A realistic breakdown of how AI room redesign at ₹749 helps Indian homeowners reduce risk before spending on furniture, paint, and decor.",
+      "A realistic breakdown of how AI room redesign at $9 helps American homeowners reduce risk before spending on furniture, paint, and decor.",
     ctaHref: "/room-redesign",
     ctaLabel: "Start your redesign",
     ctaText:
@@ -114,13 +114,13 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     publishedTime: "2026-03-30",
     readingTime: "7 min read",
     intro:
-      "Redesigning a room sounds expensive because most people imagine full renovation, professional consultations, and costly trial and error. But the first and most valuable part of redesign is not construction. It is clarity. If you can see how your own room could look before buying paint, furniture, or decor, you can avoid a surprising amount of waste. That is the logic behind redesigning your room for just ₹749 with AI.",
+      "Redesigning a room sounds expensive because most people imagine full renovation, professional consultations, and costly trial and error. But the first and most valuable part of redesign is not construction. It is clarity. If you can see how your own room could look before buying paint, furniture, or decor, you can avoid a surprising amount of waste. That is the logic behind redesigning your room for just $9 with AI.",
     sections: [
       {
         heading: "The most expensive mistake is not usually labour",
         paragraphs: [
-          "When Indian homeowners overspend, it is often because they buy the wrong things in the wrong order. A sofa turns out too bulky. Curtains clash with the wall paint. A laminate finish looks too cool under warm lighting. A false ceiling drops too low. None of those problems begin with execution. They begin with uncertainty. The room was never visualised clearly enough before money started moving.",
-          "Spending ₹749 on a room preview is tiny compared with replacing a centre table, repainting a wall, or reordering custom cushions and wallpapers. The economic value comes from reducing bad decisions. Even if the AI output is not a perfect blueprint, it gives you a much better starting point than trying to assemble a design from random references.",
+          "When American homeowners overspend, it is often because they buy the wrong things in the wrong order. A sofa turns out too bulky. Curtains clash with the wall paint. A laminate finish looks too cool under warm lighting. A ceiling treatment drops too low. None of those problems begin with execution. They begin with uncertainty. The room was never visualised clearly enough before money started moving.",
+          "Spending $9 on a room preview is tiny compared with replacing a coffee table, repainting a wall, or reordering custom cushions and wallpapers. The economic value comes from reducing bad decisions. Even if the AI output is not a perfect blueprint, it gives you a much better starting point than trying to assemble a design from random references.",
         ],
       },
       {
@@ -131,10 +131,10 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         ],
       },
       {
-        heading: "How ₹749 fits into a real room budget",
+        heading: "How $9 fits into a real room budget",
         paragraphs: [
           "Even modest room upgrades usually involve larger spends: paint, curtains, bedding, lights, loose furniture, soft furnishings, and maybe carpentry. The preview fee is a tiny line item in that context. Think of it the way you would think of a site visit or sample board fee: a small amount paid upfront to avoid larger confusion later.",
-          "This is especially useful if you are working in phases. Many Indian households improve rooms gradually rather than through one big budget. First curtains, then lighting, then a new rug, then cabinetry, then decor. The AI redesign can help you choose the right visual direction upfront so every later purchase moves the room in the same direction.",
+          "This is especially useful if you are working in phases. Many American households improve rooms gradually rather than through one big budget. First curtains, then lighting, then a new rug, then cabinetry, then decor. The AI redesign can help you choose the right visual direction upfront so every later purchase moves the room in the same direction.",
         ],
       },
       {
@@ -148,15 +148,15 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "Use the preview like a planning document",
         paragraphs: [
           "The smartest way to use an AI redesign is to turn it into a checklist. Identify the big wins in the image: paint family, furniture style, lighting mood, textiles, and storage logic. Then rank them by cost and impact. What can you do this month? What needs measurement? What can wait? This converts the output from inspiration into action.",
-          "In that sense, redesigning your room for ₹749 is not about finishing the room for ₹749. It is about beginning correctly for ₹749. The preview gives you a strategic advantage: you spend the rest of your budget with more confidence, more coherence, and fewer costly detours.",
+          "In that sense, redesigning your room for $9 is not about finishing the room for $9. It is about beginning correctly for $9. The preview gives you a strategic advantage: you spend the rest of your budget with more confidence, more coherence, and fewer costly detours.",
         ],
       },
     ],
     faqs: [
       {
-        question: "Is ₹749 enough to redesign a room physically?",
+        question: "Is $9 enough to redesign a room physically?",
         answer:
-          "No, ₹749 is for the AI visualisation step. It helps you plan the redesign before you start spending on physical changes.",
+          "No, $9 is for the AI visualisation step. It helps you plan the redesign before you start spending on physical changes.",
       },
       {
         question: "Why pay for AI before buying decor?",
@@ -169,7 +169,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     slug: "interior-design-styles-explained",
     title: "5 Interior Design Styles Explained",
     description:
-      "Understand modern, Scandinavian, minimalist, industrial, and bohemian interiors with practical examples for Indian homes.",
+      "Understand modern, Scandinavian, minimalist, industrial, and bohemian interiors with practical examples for American homes.",
     ctaHref: "/ideas",
     ctaLabel: "Browse room-style ideas",
     ctaText:
@@ -177,47 +177,47 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     publishedTime: "2026-03-30",
     readingTime: "9 min read",
     intro:
-      "People often say they want a modern or minimalist home when what they really mean is calm, stylish, less cluttered, or more premium. Interior design styles are useful because they give language to those instincts. But style labels can also be confusing, especially when social media blends them together. This guide explains five core styles in plain English and shows how to think about them in the context of Indian homes.",
+      "People often say they want a modern or minimalist home when what they really mean is calm, stylish, less cluttered, or more premium. Interior design styles are useful because they give language to those instincts. But style labels can also be confusing, especially when social media blends them together. This guide explains five core styles in plain English and shows how to think about them in the context of American homes.",
     sections: [
       {
         heading: "Modern: clean lines and functional confidence",
         paragraphs: [
-          "Modern design is about deliberate simplicity, not emptiness. It relies on straight lines, controlled colour use, uncluttered surfaces, and furniture that feels lean rather than bulky. In Indian homes, modern rooms work especially well when paired with matte finishes, warm wood, and a few grounded accents that offset common glossy floors or reflective surfaces. The effect is clean and composed without becoming cold.",
+          "Modern design is about deliberate simplicity, not emptiness. It relies on straight lines, controlled colour use, uncluttered surfaces, and furniture that feels lean rather than bulky. In American homes, modern rooms work especially well when paired with matte finishes, warm wood, and a few grounded accents that offset common glossy floors or reflective surfaces. The effect is clean and composed without becoming cold.",
           "If you are drawn to hotel-like neatness, seamless wardrobes, floating consoles, ribbed panels, and a refined neutral palette, modern may be your base language. It tends to suit apartments because it handles compact footprints well. The common mistake is going too sterile. Modern rooms still need warmth through fabric, lighting, and restrained texture.",
         ],
       },
       {
         heading: "Scandinavian: bright, soft, and effortlessly liveable",
         paragraphs: [
-          "Scandinavian interiors share modern design's love of simplicity, but they add softness. The palette is lighter, the woods are paler, and the mood is more relaxed. Think off-white walls, ash wood finishes, cosy textiles, simple joinery, and plants that make the room feel alive. In Indian homes with limited daylight, this style is especially useful because it amplifies brightness and reduces visual heaviness.",
+          "Scandinavian interiors share modern design's love of simplicity, but they add softness. The palette is lighter, the woods are paler, and the mood is more relaxed. Think off-white walls, ash wood finishes, cosy textiles, simple joinery, and plants that make the room feel alive. In American homes with limited daylight, this style is especially useful because it amplifies brightness and reduces visual heaviness.",
           "Scandinavian design is perfect for people who want a calm home that still feels friendly and personal. It works beautifully in bedrooms, home offices, and compact living rooms. The key is restraint. Too many decorative add-ons can quickly push the room away from Scandinavian clarity and into generic clutter.",
         ],
       },
       {
         heading: "Minimalist: less, but better",
         paragraphs: [
-          "Minimalism is not a style of deprivation. It is a style of prioritisation. The room carries fewer things, but each thing is chosen more carefully. The palette is often tonal. Storage is more integrated. Surfaces are quieter. Circulation is cleaner. In Indian homes, minimalism is most powerful when families are ready to support it with habits: controlled storage, edited decor, and disciplined purchases.",
+          "Minimalism is not a style of deprivation. It is a style of prioritisation. The room carries fewer things, but each thing is chosen more carefully. The palette is often tonal. Storage is more integrated. Surfaces are quieter. Circulation is cleaner. In American homes, minimalism is most powerful when families are ready to support it with habits: controlled storage, edited decor, and disciplined purchases.",
           "This style can make small rooms feel expensive and serene, but only if it is executed with intention. A bare room is not the same as a minimalist room. Minimalism still needs excellent proportions, material quality, and lighting to feel complete. Without those, it can look unfinished instead of refined.",
         ],
       },
       {
         heading: "Industrial: texture, contrast, and urban character",
         paragraphs: [
-          "Industrial design brings edge and personality through rougher materials: concrete finishes, black metal, distressed wood, exposed textures, leather tones, and dramatic lights. It often feels bolder and more masculine, though that is not a requirement. In Indian apartments, industrial style works best when balanced carefully. Too much dark texture can make smaller rooms heavy, but the right amount creates depth and attitude.",
+          "Industrial design brings edge and personality through rougher materials: concrete finishes, black metal, distressed wood, exposed textures, leather tones, and dramatic lights. It often feels bolder and more masculine, though that is not a requirement. In American homes, industrial style works best when balanced carefully. Too much dark texture can make smaller rooms heavy, but the right amount creates depth and attitude.",
           "You do not need a warehouse loft to use industrial cues. A brick-texture feature wall, black-framed lights, reclaimed wood furniture, and a restrained charcoal palette can be enough. The secret is contrast. Pair the raw elements with comfort so the room still feels like a home and not a themed café.",
         ],
       },
       {
         heading: "Bohemian: layered, creative, and expressive",
         paragraphs: [
-          "Bohemian design embraces personality over perfection. It uses layered textiles, natural materials, mixed patterns, collected decor, handcrafted pieces, plants, and a warmer colour range. In the Indian context, this style often feels intuitively familiar because it aligns well with cane, jute, block prints, terracotta, brass, and handcrafted accents that already sit naturally within local design culture.",
+          "Bohemian design embraces personality over perfection. It uses layered textiles, natural materials, mixed patterns, collected decor, handcrafted pieces, plants, and a warmer colour range. In the American context, this style often feels intuitively familiar because it aligns well with cane, jute, block prints, terracotta, brass, and handcrafted accents that already sit naturally within local design culture.",
           "The challenge with bohemian rooms is maintaining intention. The difference between expressive and messy often comes down to a controlled palette and thoughtful repetition. If you love colour, texture, and a room that tells a story, bohemian may be the right fit. If you prefer visual quiet, it may feel too layered for daily comfort.",
         ],
       },
       {
         heading: "How to choose the right style for your room",
         paragraphs: [
-          "Start with lifestyle, not aesthetics. Do you enjoy visual quiet or collected energy? Do you need lots of closed storage? Do you entertain often? Are you working with builder-grade finishes you cannot replace immediately? Once you answer those questions, style choices become more realistic. A home with heavy daily use may benefit from modern or Scandinavian discipline. A creative studio bedroom may welcome bohemian layering. A work-focused home office may lean minimalist or industrial.",
+          "Start with lifestyle, not aesthetics. Do you enjoy visual quiet or collected energy? Do you need lots of closed storage? Do you entertain often? Are you working with rental-grade finishes you cannot replace immediately? Once you answer those questions, style choices become more realistic. A home with heavy daily use may benefit from modern or Scandinavian discipline. A creative studio bedroom may welcome bohemian layering. A work-focused home office may lean minimalist or industrial.",
           "It also helps to judge style by room, not just by house. Your bedroom may need softer Scandinavian calm while your dining zone can carry more dramatic industrial lighting. AI tools are useful here because they let you compare styles on different rooms without committing physically.",
         ],
       },
@@ -231,7 +231,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     ],
     faqs: [
       {
-        question: "Which interior design style is best for small Indian apartments?",
+        question: "Which interior design style is best for small American homes?",
         answer:
           "Modern, Scandinavian, and minimalist styles often work best because they keep layouts light, storage efficient, and surfaces less visually busy.",
       },
@@ -244,9 +244,9 @@ export const BLOG_ARTICLES: BlogArticle[] = [
   },
   {
     slug: "ai-vs-interior-designer-cost",
-    title: "AI vs Professional Interior Designer — Cost Comparison India",
+    title: "AI vs Professional Interior Designer — Cost Comparison in the US",
     description:
-      "Compare AI room redesign costs with professional interior designer fees in India and learn when each option makes sense.",
+      "Compare AI room redesign costs with professional interior designer fees in the US and learn when each option makes sense.",
     ctaHref: "/room-redesign",
     ctaLabel: "See your room with AI",
     ctaText:
@@ -254,7 +254,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     publishedTime: "2026-03-30",
     readingTime: "7 min read",
     intro:
-      "When people compare AI with interior designers, they often frame it as a replacement question. That is not the most useful way to think about it. The smarter question is which stage of the job you need help with. In India, professional design services and AI room redesign tools solve different problems at very different price points. Understanding the trade-off can save both money and frustration.",
+      "When people compare AI with interior designers, they often frame it as a replacement question. That is not the most useful way to think about it. The smarter question is which stage of the job you need help with. In the US, professional design services and AI room redesign tools solve different problems at very different price points. Understanding the trade-off can save both money and frustration.",
     sections: [
       {
         heading: "What a professional interior designer charges for",
@@ -266,14 +266,14 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       {
         heading: "What AI redesign is actually buying you",
         paragraphs: [
-          "An AI room redesign is a low-cost clarity tool. It helps you visualise your real room in a new style quickly. For a few hundred rupees, you can compare directions, align with family members, and reduce the chance of making an obviously wrong aesthetic choice. It does not replace detailed drawings, site execution, or custom joinery decisions. It accelerates the early thinking stage.",
+          "An AI room redesign is a low-cost clarity tool. It helps you visualise your real room in a new style quickly. For just $9, you can compare directions, align with family members, and reduce the chance of making an obviously wrong aesthetic choice. It does not replace detailed drawings, site execution, or custom millwork decisions. It accelerates the early thinking stage.",
           "That makes AI especially attractive for single-room updates, renter-friendly refreshes, pre-renovation exploration, and budget-sensitive households. The value is not in replacing a designer's full service. The value is in giving you better taste clarity before larger spending begins.",
         ],
       },
       {
         heading: "Cost comparison in practical terms",
         paragraphs: [
-          "If you spend ₹749 on an AI redesign and it helps you avoid one bad purchase, the return can be immediate. Compare that with the cost of repainting, changing curtains, replacing a poorly sized sofa, or revising carpentry finishes. Professional designers, meanwhile, become cost-effective when the scope is large enough that their planning prevents expensive execution mistakes across many decisions, not just one room mood.",
+          "If you spend $9 on an AI redesign and it helps you avoid one bad purchase, the return can be immediate. Compare that with the cost of repainting, changing curtains, replacing a poorly sized sofa, or revising carpentry finishes. Professional designers, meanwhile, become cost-effective when the scope is large enough that their planning prevents expensive execution mistakes across many decisions, not just one room mood.",
           "In other words, AI has a strong advantage at the top of the funnel: low cost, fast iteration, instant visuals. Professional designers have the advantage deeper in the funnel: technical detail, customisation, vendor management, and cohesive execution. They are not enemies. They are often sequential tools.",
         ],
       },
@@ -281,7 +281,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "When AI is the better first step",
         paragraphs: [
           "Choose AI first when you are undecided on style, working with a limited budget, upgrading one room, or trying to communicate a visual direction to family or vendors. It is also useful when you want to pressure-test whether an idea deserves further investment. Many people discover through a preview that a concept they loved online does not suit their room at all.",
-          "This is particularly valuable in Indian apartments where layout flexibility may be limited. Before paying for detailed consultation, it helps to know whether the broad direction itself feels right. AI can answer that quickly.",
+          "This is particularly valuable in American homes where layout flexibility may be limited. Before paying for detailed consultation, it helps to know whether the broad direction itself feels right. AI can answer that quickly.",
         ],
       },
       {
@@ -294,7 +294,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     ],
     faqs: [
       {
-        question: "Is AI cheaper than hiring an interior designer in India?",
+        question: "Is AI cheaper than hiring an interior designer in the US?",
         answer:
           "Yes, AI room redesign is dramatically cheaper for early visualisation, but it does not replace the execution and technical expertise of a professional designer.",
       },
@@ -307,9 +307,9 @@ export const BLOG_ARTICLES: BlogArticle[] = [
   },
   {
     slug: "modern-bedroom-small-apartment",
-    title: "Modern Bedroom Design Ideas for Small Indian Apartments",
+    title: "Modern Bedroom Design Ideas for Small American Apartments",
     description:
-      "Smart modern bedroom ideas for compact Indian apartments, including layout, storage, colour palettes, and lighting guidance.",
+      "Smart modern bedroom ideas for compact American homes, including layout, storage, colour palettes, and lighting guidance.",
     ctaHref: "/ideas/modern-bedroom",
     ctaLabel: "See modern bedroom ideas",
     ctaText:
@@ -317,26 +317,26 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     publishedTime: "2026-03-30",
     readingTime: "7 min read",
     intro:
-      "A small bedroom does not need more decoration. It needs better decisions. Modern design works especially well in small Indian apartments because it relies on clarity, useful storage, and visual calm. When the room is tight, every inch counts, and modern design gives you a framework for making the space feel larger, cleaner, and more restful without losing warmth.",
+      "A small bedroom does not need more decoration. It needs better decisions. Modern design works especially well in small American homes because it relies on clarity, useful storage, and visual calm. When the room is tight, every inch counts, and modern design gives you a framework for making the space feel larger, cleaner, and more restful without losing warmth.",
     sections: [
       {
         heading: "Start with the bed and walkway clearances",
         paragraphs: [
-          "In many Indian apartments, the bedroom footprint is around 10x12 feet. That means the bed usually dominates the space immediately. If you start by shopping decor instead of planning movement, the room quickly feels cramped. A queen bed often works, but only if the side clearances remain comfortable and the wardrobe doors can still operate without conflict.",
+          "In many American homes, the bedroom footprint is around 10x12 feet. That means the bed usually dominates the space immediately. If you start by shopping decor instead of planning movement, the room quickly feels cramped. A queen bed often works, but only if the side clearances remain comfortable and the wardrobe doors can still operate without conflict.",
           "Modern design favours breathing room around the key furniture pieces. Even when space is limited, leaving cleaner edges around the bed makes the room feel more composed. If the footprint is tight, choose slimmer side tables, wall-mounted lights, and a bench only if it truly fits.",
         ],
       },
       {
         heading: "Use a controlled modern palette",
         paragraphs: [
-          "Small bedrooms benefit from tonal colours because tonal rooms feel less chopped up. Warm white, mushroom, greige, muted taupe, and soft wood finishes are especially effective in Indian bedrooms. These colours reflect light gently and make the room feel less visually fragmented than a high-contrast palette would.",
+          "Small bedrooms benefit from tonal colours because tonal rooms feel less chopped up. Warm white, mushroom, greige, muted taupe, and soft wood finishes are especially effective in American bedrooms. These colours reflect light gently and make the room feel less visually fragmented than a high-contrast palette would.",
           "A modern bedroom does not need to be colourless. It just needs restraint. One darker accent, such as charcoal trims, a textured headboard, or deep olive cushions, can add sophistication without shrinking the room visually. The main goal is consistency across paint, curtain tone, bedding, and wardrobe finish.",
         ],
       },
       {
         heading: "Prioritise concealed storage",
         paragraphs: [
-          "Storage pressure is one of the biggest reasons small bedrooms stop feeling calm. Modern design solves this by making storage disappear into the room architecture. Full-height wardrobes, loft storage, under-bed drawers, and flush shutters reduce visible clutter and keep surfaces cleaner. In Indian homes, where seasonal clothes, extra bedding, and luggage often need a place, concealed storage is not optional.",
+          "Storage pressure is one of the biggest reasons small bedrooms stop feeling calm. Modern design solves this by making storage disappear into the room architecture. Full-height wardrobes, loft storage, under-bed drawers, and flush shutters reduce visible clutter and keep surfaces cleaner. In American homes, where seasonal clothes, extra bedding, and luggage often need a place, concealed storage is not optional.",
           "The room will always feel more premium if the eye lands on one clean headboard wall and one disciplined wardrobe wall instead of random baskets and overfull open shelves. That is the difference between a room that feels small and a room that simply is small.",
         ],
       },
@@ -344,7 +344,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "Lighting makes the modern look believable",
         paragraphs: [
           "Many compact bedrooms rely on one harsh ceiling light, and that instantly flattens the room. A modern bedroom should layer light: soft ceiling ambient, focused bedside light, and maybe a wardrobe strip or cove glow if the budget allows. Even one pair of warm bedside sconces can dramatically upgrade the mood.",
-          "This matters for both function and aesthetics. The room should work for dressing, reading, relaxing, and sleeping. Warm 3000K lighting usually flatters Indian wall tones and wood finishes better than overly cool white LEDs.",
+          "This matters for both function and aesthetics. The room should work for dressing, reading, relaxing, and sleeping. Warm 3000K lighting usually flatters American wall tones and wood finishes better than overly cool white LEDs.",
         ],
       },
       {
@@ -362,7 +362,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
           "Warm whites, greige, taupe, and soft wood tones usually work best because they keep the room bright while still feeling warm and sophisticated.",
       },
       {
-        question: "What bed size is best for a small Indian apartment bedroom?",
+        question: "What bed size is best for a small American apartment bedroom?",
         answer:
           "A queen bed is often the sweet spot, but the right choice depends on whether you can still maintain comfortable circulation and wardrobe access.",
       },
@@ -386,13 +386,13 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "Why clean product backgrounds matter",
         paragraphs: [
           "A clean background makes a product easier to understand. The buyer notices silhouette, material, colour, and shape immediately instead of processing the room, counter, floor, or sheet behind it. On marketplaces where users scroll quickly, that clarity matters. Better imagery supports credibility, and credibility supports conversion.",
-          "For Indian ecommerce sellers, this is especially relevant because many products are still photographed at home, in small offices, or in local stores rather than studios. Background removal helps bridge that quality gap without requiring a professional production setup.",
+          "For American ecommerce sellers, this is especially relevant because many products are still photographed at home, in small offices, or in local stores rather than studios. Background removal helps bridge that quality gap without requiring a professional production setup.",
         ],
       },
       {
-        heading: "Useful for marketplaces like Meesho and Flipkart",
+        heading: "Useful for marketplaces like Etsy and Amazon",
         paragraphs: [
-          "Sellers on Meesho, Flipkart, Amazon, and independent storefronts need speed. They often upload multiple SKUs, colour variants, and new arrivals in short cycles. Editing every image manually is too slow. An AI background remover lets sellers process product images much faster, especially when the core task is simply isolating the product and placing it on a cleaner base.",
+          "Sellers on Etsy, Amazon, Shopify, and independent storefronts need speed. They often upload multiple SKUs, colour variants, and new arrivals in short cycles. Editing every image manually is too slow. An AI background remover lets sellers process product images much faster, especially when the core task is simply isolating the product and placing it on a cleaner base.",
           "This helps apparel, jewellery, home decor, electronics, beauty products, kitchenware, and gifting brands alike. Even a simple white or neutral backdrop can make a catalog feel more organised and more premium.",
         ],
       },

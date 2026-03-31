@@ -5,18 +5,18 @@ import { STYLES } from "@/lib/seo-data";
 export const metadata: Metadata = {
   title: { absolute: "Interior Design Styles by Room — AI Redesign Ideas | AltorLab" },
   description:
-    "Explore modern, Scandinavian, minimalist, industrial, and bohemian room design ideas for Indian homes, then redesign your own room with AI from ₹749.",
+    "Explore modern, Scandinavian, minimalist, industrial, and bohemian room design ideas for American homes, then redesign your own room with AI from $9.",
   openGraph: {
     title: "Interior Design Styles by Room — AI Redesign Ideas | AltorLab",
     description:
-      "Browse 5 interior design styles for Indian homes and turn your room photo into an AI redesign in seconds.",
+      "Browse 5 interior design styles for American homes and turn your room photo into an AI redesign in seconds.",
     url: "https://app.altorlab.org/styles",
   },
   twitter: {
     card: "summary_large_image",
     title: "Interior Design Styles by Room — AI Redesign Ideas | AltorLab",
     description:
-      "Modern, Scandinavian, minimalist, industrial, and bohemian design ideas for Indian homes.",
+      "Modern, Scandinavian, minimalist, industrial, and bohemian design ideas for American homes.",
   },
 };
 
@@ -32,7 +32,7 @@ export default function StylesHubPage() {
             Interior Design Styles for Every Room
           </h1>
           <p className="mx-auto max-w-3xl text-lg leading-relaxed text-slate-400">
-            Compare the most popular room design styles for Indian homes, understand the colors and furniture that define each look, and move from inspiration to AI redesign in a few clicks.
+            Compare the most popular room design styles for American homes, understand the colors and furniture that define each look, and move from inspiration to AI redesign in a few clicks.
           </p>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function StylesHubPage() {
                 {style.name}
               </span>
               <span className="rounded-full border border-slate-700 px-3 py-1 text-sm text-slate-400">
-                {style.hindi}
+                Secondary Hindi label: {style.secondaryHindiLabel}
               </span>
             </div>
             <h2 className="mb-3 text-2xl font-semibold text-white">{style.name} Interior Design</h2>
@@ -64,7 +64,7 @@ export default function StylesHubPage() {
               ))}
             </div>
             <p className="mb-6 text-sm leading-6 text-slate-500">
-              Best for homeowners who want {style.name.toLowerCase()} rooms that feel polished, practical, and easy to execute in Indian apartments, villas, and rental homes.
+              Best for homeowners who want {style.name.toLowerCase()} rooms that feel polished, practical, and easy to execute in American homes, villas, and rental homes.
             </p>
             <Link
               href={`/styles/${style.slug}`}
@@ -80,7 +80,7 @@ export default function StylesHubPage() {
         <div className="rounded-3xl border border-indigo-500/20 bg-indigo-500/10 p-8 text-center">
           <h2 className="mb-4 text-2xl font-bold text-white">Ready to see your room redesigned?</h2>
           <p className="mb-6 text-base leading-relaxed text-indigo-100">
-            Upload your photo, choose a style, and get an AI room redesign from ₹749. No subscription, no long designer wait times.
+            Upload your photo, choose a style, and get an AI room redesign from $9. No subscription, no long designer wait times.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Link

@@ -1,4 +1,4 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 import { ROOMS, STYLES } from "@/lib/seo-data";
 
 const IDEA_ROOMS = ROOMS;
@@ -16,7 +16,7 @@ const STATIC_PAGES = [
 
 const BLOG_SLUGS = [
   "best-ai-interior-design-tools",
-  "redesign-room-749-rupees",
+  "redesign-room-9-dollars",
   "interior-design-styles-explained",
   "ai-vs-interior-designer-cost",
   "modern-bedroom-small-apartment",

@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 /**
  * Build metadata object with common defaults
@@ -28,7 +28,18 @@ export const websiteJsonLd = {
   "@type": "WebSite",
   name: "AltorLab",
   url: "https://app.altorlab.org",
-  description: "Free AI tools for everyone.",
+  description: "AI tools for US creators, sellers, and homeowners.",
+  inLanguage: "en-US",
+  areaServed: "US",
+};
+
+export const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "AltorLab",
+  url: "https://app.altorlab.org",
+  areaServed: "US",
+  knowsLanguage: ["en-US"],
 };
 
 /**
@@ -40,9 +51,11 @@ export const appJsonLd = {
   name: "AI Room Redesign",
   url: "https://app.altorlab.org/room-redesign",
   applicationCategory: "UtilitiesApplication",
+  areaServed: "US",
+  availableLanguage: "en-US",
   offers: {
     "@type": "Offer",
-    price: "749",
-    priceCurrency: "INR",
+    price: "9",
+    priceCurrency: "USD",
   },
 };

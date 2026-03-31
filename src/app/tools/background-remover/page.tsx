@@ -15,7 +15,7 @@ const faqs = [
   {
     question: "How is AltorLab's background remover different from remove.bg?",
     answer:
-      "remove.bg is a mature product with strong bulk workflows. AltorLab is focused on a simpler free experience, India-friendly use cases, and a direct path from cleanup to marketplace-ready assets.",
+      "remove.bg is a mature product with strong bulk workflows. AltorLab is focused on a simpler free experience, the US-friendly use cases, and a direct path from cleanup to marketplace-ready assets.",
   },
 ];
 
@@ -65,15 +65,15 @@ export default function BackgroundRemoverPage() {
             accessories, and product contours.
           </p>
           <p className="leading-8 text-slate-400">
-            That matters because most people who search for an AI background remover free are not professional retouchers. They are people who need a usable result right now. A Meesho seller wants a kurti shot ready for a listing. A Flipkart seller wants a kitchen appliance on a clean white canvas.
+            That matters because most people who search for an AI background remover free are not professional retouchers. They are people who need a usable result right now. An Etsy seller wants a handmade candle photo ready for a listing. An Amazon seller wants a kitchen appliance on a clean white canvas.
             A student needs a passport-style photo with a plain background. The value is speed, not editing complexity.
           </p>
         </section>
 
         <section className="space-y-5 rounded-3xl border border-slate-800 bg-slate-800/40 p-8">
-          <h2 className="text-2xl font-semibold text-white">Built for India-first use cases</h2>
+          <h2 className="text-2xl font-semibold text-white">Built for the US-first use cases</h2>
           <p className="leading-8 text-slate-400">
-            Many background removers are built with global generic workflows in mind, but Indian users often have very specific requirements. Ecommerce sellers on Meesho, Flipkart, Amazon, and WhatsApp Business need images that look sharp even when shot on a phone inside a home or store.
+            Many background removers are built with global generic workflows in mind, but American users often have very specific requirements. Ecommerce sellers on Etsy, Amazon, Shopify, and eBay need images that look sharp even when shot on a phone inside a home or store.
             They may have fluorescent lighting, uneven shadows, cluttered counters, or textured walls in the original photo. A good AI background remover needs to handle those real conditions, not just clean studio images.
           </p>
           <p className="leading-8 text-slate-400">
@@ -98,7 +98,7 @@ export default function BackgroundRemoverPage() {
           <h2 className="text-2xl font-semibold text-white">How it compares with remove.bg</h2>
           <p className="leading-8 text-slate-400">
             remove.bg set the standard for fast background removal and remains a strong choice for teams that need API access, automation, or established bulk processing. It is a very good benchmark. But not every user needs a power-user workflow.
-            Many people just want a fast result, especially when they are comparing tools on mobile and looking for something lightweight. That is where AltorLab's approach can stand out: a straightforward interface, high-clarity output, and a focus on tasks common in Indian ecommerce and personal-photo editing.
+            Many people just want a fast result, especially when they are comparing tools on mobile and looking for something lightweight. That is where AltorLab's approach can stand out: a straightforward interface, high-clarity output, and a focus on tasks common in American ecommerce and personal-photo editing.
           </p>
           <p className="leading-8 text-slate-400">
             This is not about pretending remove.bg does not exist. It is about offering a simpler product path for users who want speed, easy access, and a practical way to move from raw image to usable asset.

@@ -211,9 +211,9 @@ const STYLE_DATA: Record<Style, StyleData> = {
     intro:
       "Bohemian design is the antithesis of the perfectly curated showroom. It is personal, layered, colourful, and gloriously free from rules. A boho room tells the story of its owner's travels, passions, and collected life — every pattern, plant, and vintage find holds a memory. If you've always felt that mainstream interiors are too careful, too matching, too safe — bohemian is your aesthetic home.",
     whatIs:
-      "Bohemian interior design draws from the 19th-century bohemian counter-culture of artists, writers, and free thinkers who rejected mainstream conventions and embraced a nomadic, globally-influenced lifestyle. Today's boho interior is a maximalist celebration of colour, texture, and global pattern. Think Moroccan wedding blankets layered over Indian block-print cushions; macramé wall hangings beside gallery-wall clusters of mismatched frames; rattan chairs beside velvet sofas; trailing pothos and monstera plants weaving through every corner. Earthy terracotta, deep jewel tones, warm ochre, and forest green form the colour story. Nothing needs to match — it needs to feel alive and personally meaningful.",
+      "Bohemian interior design draws from the 19th-century bohemian counter-culture of artists, writers, and free thinkers who rejected mainstream conventions and embraced a nomadic, globally-influenced lifestyle. Today's boho interior is a maximalist celebration of colour, texture, and global pattern. Think Moroccan wedding blankets layered over American block-print cushions; macramé wall hangings beside gallery-wall clusters of mismatched frames; rattan chairs beside velvet sofas; trailing pothos and monstera plants weaving through every corner. Earthy terracotta, deep jewel tones, warm ochre, and forest green form the colour story. Nothing needs to match — it needs to feel alive and personally meaningful.",
     keyElements: [
-      "Layered textiles: Moroccan rugs, Indian block prints, macramé, velvet, and woven blankets",
+      "Layered textiles: Moroccan rugs, American block prints, macramé, velvet, and woven blankets",
       "Rich jewel and earthy tones — terracotta, ochre, forest green, deep plum, and warm saffron",
       "Eclectic furniture mix: rattan, cane, reclaimed wood, and vintage upholstered pieces",
       "Abundant indoor plants — trailing, hanging, and statement floor-to-ceiling varieties",
@@ -340,16 +340,16 @@ export async function generateMetadata({
   const roomLabel = ROOM_DATA[room].label;
   return {
     title: `${styleLabel} ${roomLabel} Design Ideas — AI Room Redesign`,
-    description: `Transform your ${roomLabel.toLowerCase()} with ${styleLabel} design. Upload your photo and get an AI-redesigned ${roomLabel.toLowerCase()} in seconds. From ₹749.`,
+    description: `Transform your ${roomLabel.toLowerCase()} with ${styleLabel} design. Upload your photo and get an AI-redesigned ${roomLabel.toLowerCase()} in seconds. From $9.`,
     openGraph: {
       title: `${styleLabel} ${roomLabel} Design Ideas — AI Room Redesign`,
-      description: `Explore ${styleLabel.toLowerCase()} design ideas for your ${roomLabel.toLowerCase()} and see an instant AI transformation. From ₹749.`,
+      description: `Explore ${styleLabel.toLowerCase()} design ideas for your ${roomLabel.toLowerCase()} and see an instant AI transformation. From $9.`,
       url: `https://app.altorlab.org/${slug}`,
     },
     twitter: {
       card: "summary_large_image",
       title: `${styleLabel} ${roomLabel} Design Ideas — AI Room Redesign`,
-      description: `AI-powered ${styleLabel.toLowerCase()} ${roomLabel.toLowerCase()} design from ₹749.`,
+      description: `AI-powered ${styleLabel.toLowerCase()} ${roomLabel.toLowerCase()} design from $9.`,
     },
   };
 }
@@ -377,8 +377,9 @@ export default async function SEOPage({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
+      >
+        {JSON.stringify(faqJsonLd)}
+      </script>
     <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100">
       <section className="bg-gradient-to-br from-indigo-50 to-white dark:from-indigo-950 dark:to-zinc-950 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
@@ -487,7 +488,7 @@ export default async function SEOPage({
           <p className="text-indigo-100 mb-6 text-base leading-relaxed">
             Upload your photo and see your {roomLabel.toLowerCase()} transformed in{" "}
             {styleLabel.toLowerCase()} style. AI-powered results in seconds,
-            starting from ₹749.
+            starting from $9.
           </p>
           <Link
             href="/room-redesign"

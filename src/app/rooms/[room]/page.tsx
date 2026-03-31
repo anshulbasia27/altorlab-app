@@ -18,16 +18,16 @@ interface RoomNarrative {
   layouts: string[];
   problems: string[];
   aiComparison: string;
-  india: string;
+  marketContext: string;
   faqs: RoomFaq[];
 }
 
 const ROOM_DETAILS: Record<string, RoomNarrative> = {
   bedroom: {
     intro:
-      "A bedroom redesign should do more than look good in photos. It should help you sleep better, store more, and feel calmer at the end of the day. In Indian homes, bedrooms often carry more than one function: sleeping, dressing, studying, watching TV, or even handling occasional work calls. That creates design pressure in a relatively compact area. AI bedroom redesign helps by turning your actual room photo into a realistic concept before you spend on wardrobes, paint, curtains, or beds. Instead of guessing whether a lighter palette, better storage, or a new layout will work, you can see it first. That reduces decision fatigue and helps you plan improvements in the right order.",
+      "A bedroom redesign should do more than look good in photos. It should help you sleep better, store more, and feel calmer at the end of the day. In American homes, bedrooms often carry more than one function: sleeping, dressing, studying, watching TV, or even handling occasional work calls. That creates design pressure in a relatively compact area. AI bedroom redesign helps by turning your actual room photo into a realistic concept before you spend on wardrobes, paint, curtains, or beds. Instead of guessing whether a lighter palette, better storage, or a new layout will work, you can see it first. That reduces decision fatigue and helps you plan improvements in the right order.",
     layouts: [
-      "Bed centered on the longest wall with two slim side tables and a full-height wardrobe opposite for typical 2BHK bedrooms.",
+      "Bed centered on the longest wall with two slim side tables and full-height storage opposite for typical studio apartments and 1-bedroom homes.",
       "Queen bed plus study ledge under the window for dual-use bedrooms in compact apartments.",
       "Storage bed with loft cabinets and one vertical dresser for rooms that need maximum utility without losing floor space.",
     ],
@@ -37,9 +37,9 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
       "Poor lighting layers, so the room feels flat at night and harsh in the morning.",
     ],
     aiComparison:
-      "Traditional bedroom design projects in Indian cities can quickly reach ₹50,000 or far more once consultation, furniture changes, false ceiling work, and soft furnishings are included. AltorLab lets you preview your bedroom redesign from ₹749, which is useful when you want design clarity before committing to a bigger spend.",
-    india:
-      "For Indian bedrooms, prioritize wardrobe planning, blackout curtains for hotter cities, and finishes that handle dust and daily use. If the room is compact, use a lighter palette and keep circulation around the bed open. AI previews also help couples align on style before buying the biggest pieces.",
+      "Traditional bedroom design projects in American cities can quickly reach $5,000 or far more once consultation, furniture changes, ceiling work, and soft furnishings are included. AltorLab lets you preview your bedroom redesign from $9, which is useful when you want design clarity before committing to a bigger spend.",
+    marketContext:
+      "For American bedrooms, prioritize wardrobe planning, blackout curtains for hotter cities, and finishes that handle dust and daily use. If the room is compact, use a lighter palette and keep circulation around the bed open. AI previews also help couples align on style before buying the biggest pieces.",
     faqs: [
       {
         question: "Can AI redesign help me plan a small bedroom?",
@@ -47,12 +47,12 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
           "Yes. AI previews are especially useful in small bedrooms because layout, wardrobe size, and color choice have an outsized impact on how spacious the room feels.",
       },
       {
-        question: "What is the best layout for an Indian 2BHK bedroom?",
+        question: "What is the best layout for an American studio and 1-bedroom bedroom?",
         answer:
           "A centered bed, full-height wardrobe, and minimal side furniture usually works best because it preserves circulation while maximizing storage.",
       },
       {
-        question: "Is ₹749 enough to get useful bedroom design direction?",
+        question: "Is $9 enough to get useful bedroom design direction?",
         answer:
           "Yes. The goal is not full execution drawings, but a strong visual direction you can use before spending on furniture, paint, or renovation.",
       },
@@ -60,7 +60,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
   },
   "living-room": {
     intro:
-      "The living room is the most public room in most homes, which is why redesign decisions here feel higher stakes. It needs to impress guests, support daily family routines, and often connect visually with dining areas, balconies, or entry passages. In Indian apartments, this room is also where awkward TV walls, mismatched sofas, excess furniture, and poor lighting become most visible. AI living room redesign helps you test a cleaner, more intentional direction with your real space instead of mood boards from homes that do not resemble yours. You can validate layout, see whether a different style fits, and decide if the room needs small updates or a bigger furniture reset.",
+      "The living room is the most public room in most homes, which is why redesign decisions here feel higher stakes. It needs to impress guests, support daily family routines, and often connect visually with dining areas, balconies, or entry passages. In American homes, this room is also where awkward TV walls, mismatched sofas, excess furniture, and poor lighting become most visible. AI living room redesign helps you test a cleaner, more intentional direction with your real space instead of mood boards from homes that do not resemble yours. You can validate layout, see whether a different style fits, and decide if the room needs small updates or a bigger furniture reset.",
     layouts: [
       "Straight sofa facing a TV wall with one accent chair and nested tables for compact urban apartments.",
       "L-shaped sectional zoning the lounge area while preserving a walkway to the dining space in open-plan homes.",
@@ -72,9 +72,9 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
       "One harsh ceiling light instead of layered lighting for conversation, TV viewing, and evening ambience.",
     ],
     aiComparison:
-      "A living room redesign with a traditional designer can easily start at ₹50,000 and rise much higher if you replace seating, wall treatments, lighting, and storage. AltorLab gives you an AI preview from ₹749, so you can confidently choose a direction before spending on the larger living-room budget.",
-    india:
-      "Indian living rooms benefit from durable upholstery, easy-clean surfaces, and storage that hides daily clutter fast. If you host often, prioritize flexible seating and a layout that keeps the entry and TV wall visually calm. AI previews help you compare these options without moving furniture physically.",
+      "A living room redesign with a traditional designer can easily start at $5,000 and rise much higher if you replace seating, wall treatments, lighting, and storage. AltorLab gives you an AI preview from $9, so you can confidently choose a direction before spending on the larger living-room budget.",
+    marketContext:
+      "American living rooms benefit from durable upholstery, easy-clean surfaces, and storage that hides daily clutter fast. If you host often, prioritize flexible seating and a layout that keeps the entry and TV wall visually calm. AI previews help you compare these options without moving furniture physically.",
     faqs: [
       {
         question: "Can AI redesign show me a better living room layout?",
@@ -82,7 +82,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
           "Yes. It helps you understand whether your current sofa size, TV placement, and circulation are working or if a different arrangement would feel more open.",
       },
       {
-        question: "Why is living room planning so important in Indian homes?",
+        question: "Why is living room planning so important in American homes?",
         answer:
           "Because the living room often handles guests, family time, dining spillover, and the first impression of the home all at once.",
       },
@@ -95,7 +95,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
   },
   kitchen: {
     intro:
-      "Kitchen design is one of the hardest areas to visualize because utility matters as much as appearance. A kitchen can look attractive in isolation and still feel frustrating every day if workflow, storage, and counter space are wrong. In Indian homes, kitchens also need to handle heavy daily use, spices, pressure cooking, water exposure, and often a mix of open and closed storage. AI kitchen redesign is valuable because it lets you see a new look before taking on one of the most expensive renovation categories in the home. Whether you want a modular refresh or simply a better color and finish direction, the preview reduces uncertainty early.",
+      "Kitchen design is one of the hardest areas to visualize because utility matters as much as appearance. A kitchen can look attractive in isolation and still feel frustrating every day if workflow, storage, and counter space are wrong. In American homes, kitchens also need to handle heavy daily use, spices, pressure cooking, water exposure, and often a mix of open and closed storage. AI kitchen redesign is valuable because it lets you see a new look before taking on one of the most expensive renovation categories in the home. Whether you want a modular refresh or simply a better color and finish direction, the preview reduces uncertainty early.",
     layouts: [
       "Parallel kitchen with clear wet and dry zones for apartments where width is limited but efficiency matters.",
       "L-shaped kitchen with a compact dining ledge for small family homes that need extra prep space.",
@@ -107,9 +107,9 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
       "Layouts that interrupt the movement between stove, sink, and fridge during daily cooking.",
     ],
     aiComparison:
-      "Kitchen projects often cross ₹50,000 very quickly because cabinetry, countertops, hardware, backsplash, and appliances add up fast. AltorLab gives you a visual redesign direction from ₹749 so you can test style and layout thinking before starting expensive modular work.",
-    india:
-      "For Indian kitchens, choose finishes that are easy to wipe, prioritize chimney and ventilation planning, and keep high-use items near the cooking zone. AI previews are useful for comparing light versus dark laminates and for deciding whether open shelves actually suit your maintenance habits.",
+      "Kitchen projects often cross $5,000 very quickly because cabinetry, countertops, hardware, backsplash, and appliances add up fast. AltorLab gives you a visual redesign direction from $9 so you can test style and layout thinking before starting expensive modular work.",
+    marketContext:
+      "For American kitchens, choose finishes that are easy to wipe, prioritize chimney and ventilation planning, and keep high-use items near the cooking zone. AI previews are useful for comparing light versus dark laminates and for deciding whether open shelves actually suit your maintenance habits.",
     faqs: [
       {
         question: "Can AI redesign help with kitchen color decisions?",
@@ -117,7 +117,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
           "Yes. It lets you compare laminates, backsplash moods, and overall lightness before making expensive modular choices.",
       },
       {
-        question: "What layout is common in Indian apartment kitchens?",
+        question: "What layout is common in American apartment kitchens?",
         answer:
           "Parallel and L-shaped kitchens are especially common because they balance storage, workflow, and compact footprints well.",
       },
@@ -130,7 +130,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
   },
   bathroom: {
     intro:
-      "Bathroom redesign is high impact because even small changes can dramatically shift how clean, modern, and premium the space feels. At the same time, bathrooms are expensive and disruptive to renovate, so choosing the wrong tile tone, vanity finish, or layout logic becomes painful very quickly. In Indian homes, many bathrooms are compact and need to balance wet and dry zones, storage, ventilation, and easy cleaning. AI bathroom redesign helps you test the visual direction before you break tiles or order fittings. That makes it easier to decide whether the right move is a light spa-like look, a darker hotel mood, or a simple materials upgrade inside the existing layout.",
+      "Bathroom redesign is high impact because even small changes can dramatically shift how clean, modern, and premium the space feels. At the same time, bathrooms are expensive and disruptive to renovate, so choosing the wrong tile tone, vanity finish, or layout logic becomes painful very quickly. In American homes, many bathrooms are compact and need to balance wet and dry zones, storage, ventilation, and easy cleaning. AI bathroom redesign helps you test the visual direction before you break tiles or order fittings. That makes it easier to decide whether the right move is a light spa-like look, a darker hotel mood, or a simple materials upgrade inside the existing layout.",
     layouts: [
       "Straight vanity opposite the WC with a shower partition at the far end for rectangular bathrooms.",
       "Compact wall-hung vanity with corner shower zone for small apartment bathrooms.",
@@ -142,9 +142,9 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
       "Weak lighting and ventilation making the room feel dull or harder to maintain.",
     ],
     aiComparison:
-      "A bathroom redesign can exceed ₹50,000 once tiles, sanitaryware, plumbing changes, and vanity work are involved. AltorLab provides an AI preview from ₹749, which is a smart first step when you want to validate the overall look before committing to expensive execution.",
-    india:
-      "For Indian bathrooms, moisture resistance, anti-skid flooring, and practical storage matter as much as aesthetics. If the bathroom is small, use larger-looking tile patterns, better mirrors, and lighter tones to stretch the space visually. AI previews help you decide that quickly.",
+      "A bathroom redesign can exceed $5,000 once tiles, sanitaryware, plumbing changes, and vanity work are involved. AltorLab provides an AI preview from $9, which is a smart first step when you want to validate the overall look before committing to expensive execution.",
+    marketContext:
+      "For American bathrooms, moisture resistance, anti-skid flooring, and practical storage matter as much as aesthetics. If the bathroom is small, use larger-looking tile patterns, better mirrors, and lighter tones to stretch the space visually. AI previews help you decide that quickly.",
     faqs: [
       {
         question: "Can AI redesign make a small bathroom look bigger?",
@@ -157,7 +157,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
           "Definitely. Bathrooms are costly and messy to redo, so a visual preview is one of the safest ways to avoid regret.",
       },
       {
-        question: "What matters most in an Indian bathroom design?",
+        question: "What matters most in an American bathroom design?",
         answer:
           "Moisture-friendly materials, storage, anti-skid safety, ventilation, and an easy-to-clean layout matter just as much as style.",
       },
@@ -165,7 +165,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
   },
   "home-office": {
     intro:
-      "A home office is no longer a temporary setup in the corner. For many people it is a daily work environment that affects focus, posture, video-call confidence, and how clearly work is separated from the rest of home life. In Indian apartments, home offices are often carved out of bedrooms, living rooms, or spare corners, which means the design challenge is about efficiency as much as aesthetics. AI home office redesign helps you see whether a better desk position, a calmer backdrop, or more tailored storage could transform the room without major work. It is especially useful if you are tired of generic work-from-home hacks and want a setup that genuinely feels intentional.",
+      "A home office is no longer a temporary setup in the corner. For many people it is a daily work environment that affects focus, posture, video-call confidence, and how clearly work is separated from the rest of home life. In American homes, home offices are often carved out of bedrooms, living rooms, or spare corners, which means the design challenge is about efficiency as much as aesthetics. AI home office redesign helps you see whether a better desk position, a calmer backdrop, or more tailored storage could transform the room without major work. It is especially useful if you are tired of generic work-from-home hacks and want a setup that genuinely feels intentional.",
     layouts: [
       "Desk facing a wall with upper storage and a side bookshelf for bedrooms converted into workspaces.",
       "Window-side desk with a secondary storage credenza for natural light and video-call friendliness.",
@@ -177,9 +177,9 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
       "Insufficient storage for devices, papers, and chargers, causing the workspace to spill into other rooms.",
     ],
     aiComparison:
-      "A custom home office by a traditional designer can cross ₹50,000 once joinery, ergonomic furniture, lighting, and cabinetry are included. AltorLab gives you a redesign preview from ₹749 so you can lock the visual direction and prioritize what is actually worth spending on.",
-    india:
-      "In Indian homes, a successful home office should consider fan placement, daylight glare, plug-point access, and whether the room also serves another purpose. AI previews help you test calm backdrops, smarter storage, and layout logic before you invest in custom furniture.",
+      "A custom home office by a traditional designer can cross $5,000 once joinery, ergonomic furniture, lighting, and cabinetry are included. AltorLab gives you a redesign preview from $9 so you can lock the visual direction and prioritize what is actually worth spending on.",
+    marketContext:
+      "In American homes, a successful home office should consider fan placement, daylight glare, outlet access, and whether the room also serves another purpose. AI previews help you test calm backdrops, smarter storage, and layout logic before you invest in custom furniture.",
     faqs: [
       {
         question: "Can AI redesign help me create a better work-from-home setup?",
@@ -192,7 +192,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
           "Using oversized furniture or ignoring storage. Both reduce comfort quickly and make the workspace look chaotic.",
       },
       {
-        question: "Is a dedicated home office worth redesigning in India?",
+        question: "Is a dedicated home office worth redesigning in the US?",
         answer:
           "Yes, especially if you work remotely often. Better focus, comfort, and video-call presentation can justify the improvement immediately.",
       },
@@ -200,9 +200,9 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
   },
   "kids-room": {
     intro:
-      "A kids room has to evolve faster than almost any other space in the house. What works for a toddler can feel restrictive a few years later, and what delights a child today may become impractical once study needs, storage volume, and play patterns change. In Indian homes, kids rooms also need to stay manageable for parents, fit into apartment-sized layouts, and sometimes support siblings sharing the same room. AI kids room redesign helps because it shows how a more organized, age-flexible setup would look before you buy beds, study desks, storage units, or wall decor. That makes it easier to aim for a room that feels fun without becoming chaotic.",
+      "A kids room has to evolve faster than almost any other space in the house. What works for a toddler can feel restrictive a few years later, and what delights a child today may become impractical once study needs, storage volume, and play patterns change. In American homes, kids rooms also need to stay manageable for parents, fit into apartment-sized layouts, and sometimes support siblings sharing the same room. AI kids room redesign helps because it shows how a more organized, age-flexible setup would look before you buy beds, study desks, storage units, or wall decor. That makes it easier to aim for a room that feels fun without becoming chaotic.",
     layouts: [
-      "Single bed plus study desk and wardrobe wall for school-age children in standard 2BHK homes.",
+      "Single bed plus study desk and wardrobe wall for school-age children in standard studio and 1-bedroom homes.",
       "Bunk-bed or trundle-bed layout with a shared study ledge for siblings sharing one room.",
       "Play-and-study zoning with open floor area in the center and tall storage on one side for flexible daily use.",
     ],
@@ -212,9 +212,9 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
       "Poor balance between playful design and the need for focus during homework or quiet time.",
     ],
     aiComparison:
-      "A custom kids room can cross ₹50,000 once themed carpentry, wardrobes, study units, and decor layers are added. AltorLab gives you an AI redesign preview from ₹749, making it easier to choose a more timeless direction before committing to expensive built-ins.",
-    india:
-      "For Indian kids rooms, prioritize durable finishes, rounded edges, washable fabrics, and storage that children can use independently. If siblings share the room, AI previews help you test whether bunk beds, a shared desk, or zone-based planning makes the most sense for the available size.",
+      "A custom kids room can cross $5,000 once themed carpentry, wardrobes, study units, and decor layers are added. AltorLab gives you an AI redesign preview from $9, making it easier to choose a more timeless direction before committing to expensive built-ins.",
+    marketContext:
+      "For American kids rooms, prioritize durable finishes, rounded edges, washable fabrics, and storage that children can use independently. If siblings share the room, AI previews help you test whether bunk beds, a shared desk, or zone-based planning makes the most sense for the available size.",
     faqs: [
       {
         question: "Can AI redesign help plan a shared kids room?",
@@ -227,7 +227,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
           "Use neutral large furniture, flexible storage, and update the personality through art, bedding, and accessories rather than permanent themes.",
       },
       {
-        question: "What matters most in an Indian kids room?",
+        question: "What matters most in an American kids room?",
         answer:
           "Storage, safety, durability, and enough open space for movement matter most, especially in compact apartment bedrooms.",
       },
@@ -254,16 +254,16 @@ export async function generateMetadata({ params }: RoomPageProps): Promise<Metad
   }
 
   return {
-    title: { absolute: `AI ${roomData.name} Redesign from ₹749 | AltorLab` },
-    description: `See AI ${roomData.name.toLowerCase()} redesign ideas for Indian homes, compare layouts and design costs, and preview your room from ₹749 with AltorLab.`,
+    title: { absolute: `AI ${roomData.name} Redesign from $9 | AltorLab` },
+    description: `See AI ${roomData.name.toLowerCase()} redesign ideas for American homes, compare layouts and design costs, and preview your room from $9 with AltorLab.`,
     openGraph: {
-      title: `AI ${roomData.name} Redesign from ₹749 | AltorLab`,
+      title: `AI ${roomData.name} Redesign from $9 | AltorLab`,
       description: `Explore layouts, design problems, and affordable AI previews for your ${roomData.name.toLowerCase()}.`,
       url: `https://app.altorlab.org/rooms/${roomData.slug}`,
     },
     twitter: {
       card: "summary_large_image",
-      title: `AI ${roomData.name} Redesign from ₹749 | AltorLab`,
+      title: `AI ${roomData.name} Redesign from $9 | AltorLab`,
       description: `Preview your ${roomData.name.toLowerCase()} redesign with AI before spending on a traditional interior project.`,
     },
   };
@@ -291,7 +291,7 @@ export default async function RoomSeoPage({ params }: RoomPageProps) {
               {roomData.name}
             </span>
             <span className="rounded-full border border-slate-700 px-3 py-1 text-sm text-slate-400">
-              {roomData.hindi}
+              Secondary Hindi label: {roomData.secondaryHindiLabel}
             </span>
             <span className="rounded-full border border-slate-700 px-3 py-1 text-sm text-slate-400">
               Avg size: {roomData.avgSize}
@@ -312,9 +312,9 @@ export default async function RoomSeoPage({ params }: RoomPageProps) {
 
       <div className="mx-auto max-w-4xl space-y-12 px-4 py-14 sm:px-6 lg:px-8">
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-white">Popular {roomData.name.toLowerCase()} layouts for Indian homes</h2>
+          <h2 className="mb-4 text-2xl font-bold text-white">Popular {roomData.name.toLowerCase()} layouts for American homes</h2>
           <p className="mb-6 leading-8 text-slate-400">
-            Most {roomData.name.toLowerCase()} redesigns succeed when layout decisions come first. The room size in many Indian homes is limited, so every bed, desk, sofa, vanity, or storage unit affects circulation. These layout patterns are common because they balance practicality with visual clarity.
+            Most {roomData.name.toLowerCase()} redesigns succeed when layout decisions come first. The room size in many American homes is limited, so every bed, desk, sofa, vanity, or storage unit affects circulation. These layout patterns are common because they balance practicality with visual clarity.
           </p>
           <ul className="space-y-3">
             {details.layouts.map((layout) => (
@@ -345,14 +345,14 @@ export default async function RoomSeoPage({ params }: RoomPageProps) {
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <div className="rounded-2xl border border-indigo-500/20 bg-indigo-500/10 p-6">
               <h3 className="mb-2 text-lg font-semibold text-white">AltorLab AI preview</h3>
-              <p className="text-3xl font-bold text-indigo-300">₹749</p>
+              <p className="text-3xl font-bold text-indigo-300">$9</p>
               <p className="mt-3 leading-7 text-indigo-100">
                 Fast visual direction using your actual room photo. Ideal for deciding whether to proceed and what style or layout direction to pursue.
               </p>
             </div>
             <div className="rounded-2xl border border-slate-800 bg-slate-800/40 p-6">
               <h3 className="mb-2 text-lg font-semibold text-white">Traditional designer route</h3>
-              <p className="text-3xl font-bold text-slate-200">₹50,000+</p>
+              <p className="text-3xl font-bold text-slate-200">$5,000+</p>
               <p className="mt-3 leading-7 text-slate-400">
                 Higher-cost route that can include consultations, custom furniture, site work, execution coordination, and larger commitment before you have visual certainty.
               </p>
@@ -361,8 +361,8 @@ export default async function RoomSeoPage({ params }: RoomPageProps) {
         </section>
 
         <section>
-          <h2 className="mb-4 text-2xl font-bold text-white">India-specific planning tips</h2>
-          <p className="leading-8 text-slate-400">{details.india}</p>
+          <h2 className="mb-4 text-2xl font-bold text-white">US-specific planning tips</h2>
+          <p className="leading-8 text-slate-400">{details.marketContext}</p>
         </section>
 
         <section>
@@ -386,7 +386,7 @@ export default async function RoomSeoPage({ params }: RoomPageProps) {
         <section className="rounded-3xl border border-indigo-500/20 bg-indigo-500/10 p-8">
           <h2 className="mb-4 text-2xl font-bold text-white">Ready to see your {roomData.name.toLowerCase()} transformed?</h2>
           <p className="mb-6 leading-8 text-indigo-100">
-            Upload your current room photo and get an AI redesign preview from ₹749. It is the fastest way to explore a better {roomData.name.toLowerCase()} without jumping straight into a ₹50,000+ traditional project.
+            Upload your current room photo and get an AI redesign preview from $9. It is the fastest way to explore a better {roomData.name.toLowerCase()} without jumping straight into a $5,000+ traditional project.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link

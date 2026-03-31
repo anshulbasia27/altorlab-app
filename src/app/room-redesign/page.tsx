@@ -1,11 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import RoomUpload from "@/components/RoomUpload";
-import StyleSelector, { RoomStyle } from "@/components/StyleSelector";
-import RoomTypeSelector, { RoomType } from "@/components/RoomTypeSelector";
 import PaymentCTA from "@/components/PaymentCTA";
+import RoomTypeSelector from "@/components/RoomTypeSelector";
+import RoomUpload from "@/components/RoomUpload";
+import StyleSelector from "@/components/StyleSelector";
 import { buildFaqJsonLd } from "@/lib/geo";
+import type { RoomType } from "@/components/RoomTypeSelector";
+import type { RoomStyle } from "@/components/StyleSelector";
 
 const TOOL_FAQS = [
   {
@@ -16,7 +18,7 @@ const TOOL_FAQS = [
   {
     question: "How much does AI room redesign cost?",
     answer:
-      "Each AI room redesign costs ₹749. No subscription required — pay only for what you use.",
+      "Each AI room redesign costs $9. No subscription required — pay only for what you use.",
   },
   {
     question: "What interior design styles are available?",
@@ -40,10 +42,7 @@ export default function RoomRedesignPage() {
 
   return (
     <main className="min-h-screen bg-slate-900 text-slate-300 py-12 px-4 sm:px-6 lg:px-8">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
+      <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-white mb-4 tracking-tight">

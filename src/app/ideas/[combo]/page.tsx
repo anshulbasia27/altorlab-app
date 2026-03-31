@@ -8,12 +8,12 @@ const IDEA_ROOMS = ROOMS;
 
 const comboFaqs = (styleLabel: string, roomLabel: string) => [
   {
-    question: `What colours work best for a ${styleLabel.toLowerCase()} ${roomLabel.toLowerCase()} in India?`,
-    answer: `${styleLabel} ${roomLabel.toLowerCase()} designs usually work best with climate-friendly base tones, layered textures, and one intentional accent colour. In Indian homes, durable paint finishes, warm lighting, and matte materials help the palette feel premium while staying practical for dust, heat, and daily use.`,
+    question: `What colours work best for a ${styleLabel.toLowerCase()} ${roomLabel.toLowerCase()} in the US?`,
+    answer: `${styleLabel} ${roomLabel.toLowerCase()} designs usually work best with climate-friendly base tones, layered textures, and one intentional accent colour. In American homes, durable paint finishes, warm lighting, and matte materials help the palette feel premium while staying practical for dust, heat, and daily use.`,
   },
   {
     question: `Can I use these ${styleLabel.toLowerCase()} ${roomLabel.toLowerCase()} ideas in a small apartment?`,
-    answer: `Yes. The key is to keep circulation comfortable, choose furniture that matches the room's footprint, and use storage that reduces clutter. Even compact Indian apartments can carry a ${styleLabel.toLowerCase()} ${roomLabel.toLowerCase()} look when the layout, scale, and lighting are planned carefully.`,
+    answer: `Yes. The key is to keep circulation comfortable, choose furniture that matches the room's footprint, and use storage that reduces clutter. Even compact American homes can carry a ${styleLabel.toLowerCase()} ${roomLabel.toLowerCase()} look when the layout, scale, and lighting are planned carefully.`,
   },
 ];
 
@@ -35,7 +35,7 @@ function parseCombo(combo: string) {
 }
 
 function buildDescription(styleLabel: string, roomLabel: string): string {
-  return `${styleLabel} ${roomLabel} ideas for Indian homes with colour palettes, furniture sizing, layout tips, and an AI redesign CTA from ₹749.`;
+  return `${styleLabel} ${roomLabel} ideas for American homes with colour palettes, furniture sizing, layout tips, and an AI redesign CTA from $9.`;
 }
 
 export function generateStaticParams() {
@@ -59,7 +59,7 @@ export async function generateMetadata({
   }
 
   const { style, room } = parsed;
-  const title = `${style.label} ${room.label} Ideas for Indian Homes — AI Design ₹749 | AltorLab`;
+  const title = `${style.label} ${room.label} Ideas for American Homes — AI Design $9 | AltorLab`;
   const description = buildDescription(style.label, room.label);
   const url = `https://app.altorlab.org/ideas/${combo}`;
 
@@ -121,10 +121,10 @@ export default async function ComboIdeaPage({
             Room design inspiration
           </p>
           <h1 className="mb-6 text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            {style.label} {room.label} Design Ideas for Indian Homes
+            {style.label} {room.label} Design Ideas for American Homes
           </h1>
           <p className="max-w-3xl text-lg leading-8 text-slate-400">
-            If you want a {style.label.toLowerCase()} {room.label.toLowerCase()} that looks polished in renders and still works for real Indian living,
+            If you want a {style.label.toLowerCase()} {room.label.toLowerCase()} that looks polished in renders and still works for real American living,
             the details matter. The right palette, the right furniture scale, and the right storage strategy can make even a compact apartment feel custom designed.
             Use these ideas as a practical brief before you redesign your room with AI.
           </p>
@@ -138,25 +138,25 @@ export default async function ComboIdeaPage({
               <h2 className="mb-4 text-2xl font-semibold text-white">Start with the room's real constraints</h2>
               <p className="leading-8 text-slate-400">
                 A strong {style.label.toLowerCase()} {room.label.toLowerCase()} does not begin with decor; it begins with proportion. In {room.dimensions}, {room.focalPoint}, so the layout should support that first.
-                For most Indian homes, this means planning around wardrobes, balconies, windows, false ceilings, and plug points before picking colours or fabrics. The smartest move is to keep the circulation simple:
+                For most American homes, this means planning around closets, entry paths, windows, ceiling details, and power outlets before picking colours or fabrics. The smartest move is to keep the circulation simple:
                 {` ${room.layout}.`} Once movement feels easy, the style can shine without the room feeling over-designed. This is where AI previews are useful, because you can see whether the concept still feels balanced on your actual footprint instead of on a generic Pinterest image.
               </p>
               <p className="mt-4 leading-8 text-slate-400">
-                {style.label} rooms feel best when they stay true to their core mood: {style.vibe}. That mood should influence every decision from wall finish to curtain fall. In India, homes often need the same room to support guests, storage, seasonal changes,
+                {style.label} rooms feel best when they stay true to their core mood: {style.vibe}. That mood should influence every decision from wall finish to curtain fall. In the US, homes often need the same room to support guests, storage, seasonal changes,
                 and everyday convenience. A successful concept therefore mixes aesthetics with routine-friendly practicality. Rather than filling every corner, use the style as a filter that tells you what deserves to stay visible and what should disappear into storage.
               </p>
             </div>
 
             <div className="rounded-3xl border border-slate-800 bg-slate-800/40 p-8">
-              <h2 className="mb-4 text-2xl font-semibold text-white">Colours and materials that suit Indian homes</h2>
+              <h2 className="mb-4 text-2xl font-semibold text-white">Colours and materials that suit American homes</h2>
               <p className="leading-8 text-slate-400">
-                For this combination, anchor the palette with {style.palette}. Those tones work because they are flexible across Indian light conditions, from bright daylight in east-facing flats to softer artificial light in denser city layouts.
+                For this combination, anchor the palette with {style.palette}. Those tones work because they are flexible across American light conditions, from bright daylight in east-facing flats to softer artificial light in denser city layouts.
                 Build the larger surfaces first: wall paint, wardrobe laminate, curtains, rugs, and upholstery. Then repeat one accent intentionally rather than spreading many shades around the room. In practice, that could mean a muted green cushion repeated in art and a chair fabric,
                 or charcoal details echoed in handles, lamps, and framing.
               </p>
               <p className="mt-4 leading-8 text-slate-400">
                 Material choice is equally important. {style.materials} all photograph well and also hold up better in real homes than overly glossy finishes. If you want the space to look expensive on a practical budget, mix just two or three finish families and let texture do the work.
-                This is especially helpful in a {room.label.toLowerCase()}, where too many unrelated surfaces can make the space feel busy very quickly. {style.indiaNote}.
+                This is especially helpful in a {room.label.toLowerCase()}, where too many unrelated surfaces can make the space feel busy very quickly. {style.marketNote}.
               </p>
             </div>
 
@@ -167,7 +167,7 @@ export default async function ComboIdeaPage({
                 the style will not read correctly, no matter how beautiful it is on its own. Use fewer but better-proportioned elements, and prefer pieces that either reveal floor below or integrate storage.
               </p>
               <p className="mt-4 leading-8 text-slate-400">
-                Storage has to be designed as part of the aesthetic, not added later. {style.storage} help maintain the look while supporting Indian households that need room for extra linen, festive decor, cleaning supplies, or work equipment.
+                Storage has to be designed as part of the aesthetic, not added later. {style.storage} help maintain the look while supporting American households that need room for extra linen, festive decor, cleaning supplies, or work equipment.
                 For a {room.label.toLowerCase()}, hidden storage is often what separates a styled photo from a room that can stay tidy every day. Before buying anything, map the furniture onto your floor with tape or use an AI preview to check whether the clearances still feel comfortable.
               </p>
             </div>
@@ -175,7 +175,7 @@ export default async function ComboIdeaPage({
             <div className="rounded-3xl border border-slate-800 bg-slate-800/40 p-8">
               <h2 className="mb-4 text-2xl font-semibold text-white">Lighting, styling, and climate-ready finishing</h2>
               <p className="leading-8 text-slate-400">
-                Great styling is less about adding more objects and more about guiding the eye. For this combination, let {style.accent} become the hero. Support it with {style.lighting}. Lighting matters even more in Indian homes where one room may shift from bright daytime use to warm evening relaxation.
+                Great styling is less about adding more objects and more about guiding the eye. For this combination, let {style.accent} become the hero. Support it with {style.lighting}. Lighting matters even more in American homes where one room may shift from bright daytime use to warm evening relaxation.
                 A layered lighting plan keeps the room flattering across all those moments while also making the colour palette appear richer and more intentional.
               </p>
               <p className="mt-4 leading-8 text-slate-400">
@@ -202,7 +202,7 @@ export default async function ComboIdeaPage({
               <p className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-indigo-300">Try it on your actual room</p>
               <h2 className="mb-3 text-2xl font-semibold text-white">See this style in seconds</h2>
               <p className="mb-6 leading-7 text-slate-300">
-                Upload your room photo, pick a style, and get an AI room redesign from ₹749. It is the fastest way to validate a {style.label.toLowerCase()} {room.label.toLowerCase()} direction before you buy paint, furniture, or lighting.
+                Upload your room photo, pick a style, and get an AI room redesign from $9. It is the fastest way to validate a {style.label.toLowerCase()} {room.label.toLowerCase()} direction before you buy paint, furniture, or lighting.
               </p>
               <Link
                 href="/room-redesign"

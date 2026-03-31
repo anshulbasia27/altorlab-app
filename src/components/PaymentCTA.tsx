@@ -1,13 +1,42 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { RoomStyle } from "./StyleSelector";
-import { RoomType } from "./RoomTypeSelector";
+import { useEffect, useState } from "react";
 import { trackCheckoutStart, trackPurchaseComplete } from "@/lib/tracking";
+import type { RoomType } from "./RoomTypeSelector";
+import type { RoomStyle } from "./StyleSelector";
+
+interface RazorpayPaymentResponse {
+  razorpay_payment_id: string;
+  razorpay_order_id: string;
+  razorpay_signature: string;
+}
+
+interface RazorpayCheckoutOptions {
+  key: string;
+  amount: number;
+  currency: string;
+  name: string;
+  description: string;
+  order_id: string;
+  prefill: { email: string };
+  theme: { color: string };
+  handler: (response: RazorpayPaymentResponse) => Promise<void>;
+  modal: {
+    ondismiss: () => void;
+  };
+}
+
+interface RazorpayInstance {
+  open: () => void;
+}
+
+interface RazorpayConstructor {
+  new (options: RazorpayCheckoutOptions): RazorpayInstance;
+}
 
 declare global {
   interface Window {
-    Razorpay: any;
+    Razorpay?: RazorpayConstructor;
   }
 }
 
@@ -59,10 +88,16 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
         throw new Error("Razorpay SDK not available");
       }
 
+      const checkoutKey = process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID;
+
+      if (!checkoutKey) {
+        throw new Error("Checkout key missing");
+      }
+
       trackCheckoutStart(style, roomType);
 
-      const options = {
-        key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID!,
+      const options: RazorpayCheckoutOptions = {
+        key: checkoutKey,
         amount,
         currency,
         name: "AltorLab",
@@ -70,7 +105,7 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
         order_id: orderId,
         prefill: { email: userEmail },
         theme: { color: "#6366f1" },
-        handler: async (response: any) => {
+        handler: async (response: RazorpayPaymentResponse) => {
           try {
             const verifyRes = await fetch("/api/razorpay/verify-payment", {
               method: "POST",
@@ -168,7 +203,7 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
             Processing...
           </>
         ) : (
-          "Redesign My Room for ₹749"
+          "Redesign My Room for $9"
         )}
       </button>
 
@@ -211,7 +246,7 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
               Processing...
             </>
           ) : (
-            "Redesign My Room — ₹749"
+            "Redesign My Room — $9"
           )}
         </button>
       </div>

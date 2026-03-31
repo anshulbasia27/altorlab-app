@@ -1,15 +1,5 @@
-import { notFound } from "next/navigation";
-import ArticlePage from "../_components/ArticlePage";
-import { buildArticleMetadata, getArticleBySlug } from "../_lib/articles";
-
-export const metadata = buildArticleMetadata("redesign-room-749-rupees");
+import { redirect } from "next/navigation";
 
 export default function RedesignRoom749RupeesPage() {
-  const article = getArticleBySlug("redesign-room-749-rupees");
-
-  if (!article) {
-    notFound();
-  }
-
-  return <ArticlePage article={article} />;
+  redirect("/blog/redesign-room-9-dollars");
 }

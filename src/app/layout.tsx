@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
-import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
-import { websiteJsonLd, appJsonLd } from "@/lib/seo";
+import Script from "next/script";
+import type { Metadata } from "next";
+import { websiteJsonLd, appJsonLd, organizationJsonLd } from "@/lib/seo";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -21,20 +21,26 @@ export const metadata: Metadata = {
     template: "%s | AltorLab",
   },
   description:
-    "AltorLab offers free and affordable AI tools. Transform your room with AI Room Redesign from ₹749.",
+    "AltorLab offers free and affordable AI tools. Transform your room with AI Room Redesign from $9.",
   metadataBase: new URL("https://app.altorlab.org"),
+  alternates: {
+    canonical: "https://app.altorlab.org",
+    languages: {
+      "en-US": "https://app.altorlab.org",
+    },
+  },
   openGraph: {
     type: "website",
     siteName: "AltorLab",
     title: "AltorLab — Free AI Tools",
     description:
-      "AI Room Redesign from ₹749. Upload your room photo, choose a style, download your redesign.",
+      "AI Room Redesign from $9. Upload your room photo, choose a style, download your redesign.",
     url: "https://app.altorlab.org",
   },
   twitter: {
     card: "summary_large_image",
     title: "AltorLab — Free AI Tools",
-    description: "AI Room Redesign from ₹749.",
+    description: "AI Room Redesign from $9.",
   },
   robots: {
     index: true,
@@ -49,18 +55,27 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en-US"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        <meta name="geo.region" content="US" />
+        <link rel="alternate" hrefLang="en-us" href="https://app.altorlab.org" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
-        />
+        >
+          {JSON.stringify(websiteJsonLd)}
+        </script>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(appJsonLd) }}
-        />
+        >
+          {JSON.stringify(organizationJsonLd)}
+        </script>
+        <script
+          type="application/ld+json"
+        >
+          {JSON.stringify(appJsonLd)}
+        </script>
         {/* GA4 */}
         {process.env.NEXT_PUBLIC_GA_ID && (
           <>

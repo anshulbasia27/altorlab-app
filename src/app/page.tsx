@@ -1,4 +1,23 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: { absolute: "AltorLab — AI Tools for US Home Design and Sellers" },
+  description:
+    "Affordable AI tools for US homeowners, online sellers, and creators. Try AI Room Redesign from $9.",
+  alternates: {
+    canonical: "https://app.altorlab.org",
+    languages: {
+      "en-US": "https://app.altorlab.org",
+    },
+  },
+  openGraph: {
+    title: "AltorLab — AI Tools for US Home Design and Sellers",
+    description:
+      "Affordable AI tools for US homeowners, online sellers, and creators. Try AI Room Redesign from $9.",
+    url: "https://app.altorlab.org",
+  },
+};
 
 export default function HomePage() {
   return (
@@ -26,7 +45,7 @@ export default function HomePage() {
             <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6 hover:border-indigo-500 transition-all duration-200 h-full">
               <div className="flex items-center justify-between mb-4">
                 <span className="bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1 rounded-full">LIVE</span>
-                <span className="text-slate-400 text-sm">₹749/design</span>
+                <span className="text-slate-400 text-sm">$9/design</span>
               </div>
               <div className="w-full h-32 rounded-lg mb-4 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 flex items-center justify-center">
                 <svg className="w-12 h-12 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-label="Room icon"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" /></svg>
@@ -69,7 +88,7 @@ export default function HomePage() {
       <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <h2 className="text-2xl font-bold text-white mb-4">What is AltorLab?</h2>
         <p className="text-slate-400 leading-relaxed mb-4">
-          AltorLab is a collection of free and affordable AI-powered tools for everyday creative tasks. Our flagship tool, AI Room Redesign, transforms your room photos into beautiful redesigns in seconds. Upload a photo, choose from 5 interior design styles — modern, scandinavian, minimalist, industrial, or bohemian — and download your AI-generated redesign for just ₹749. No subscription required.
+          AltorLab is a collection of free and affordable AI-powered tools for everyday creative tasks. Our flagship tool, AI Room Redesign, transforms your room photos into beautiful redesigns in seconds. Upload a photo, choose from 5 interior design styles — modern, scandinavian, minimalist, industrial, or bohemian — and download your AI-generated redesign for just $9. No subscription required.
         </p>
         <p className="text-slate-400 leading-relaxed">
           We're building more AI tools including background removal and tattoo design. All tools are browser-based — no app downloads needed. Simple, fast, affordable.

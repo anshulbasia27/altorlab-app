@@ -29,8 +29,8 @@ export function trackCheckoutStart(style: string, roomType: string) {
 export function trackPurchaseComplete(paymentId: string, amount: number) {
   trackEvent("purchase", {
     transaction_id: paymentId,
-    value: amount / 100, // paise to rupees
-    currency: "INR",
+    value: amount / 100,
+    currency: "USD",
     items: [{ item_name: "AI Room Redesign", price: amount / 100 }],
   });
 }
