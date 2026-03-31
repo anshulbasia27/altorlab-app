@@ -307,6 +307,15 @@ function toLabel(kebab: string): string {
 }
 
 function parseSlug(slug: string): { style: Style; room: Room } | null {
+  if (slug.match(/^ai-interior-design-.+$/)) {
+    return { style: "modern" as Style, room: "living-room" as Room };
+  }
+  if (slug.match(/^\w+-alternative$/)) {
+    return { style: "modern" as Style, room: "living-room" as Room };
+  }
+  if (slug.match(/^remove-background-.+$/)) {
+    return { style: "modern" as Style, room: "living-room" as Room };
+  }
   const budgetMatch = slug.match(/^budget-(\w+)-(.+)-design$/);
   if (budgetMatch && STYLES.includes(budgetMatch[1] as Style) && ROOMS.includes(budgetMatch[2] as Room)) {
     return { style: budgetMatch[1] as Style, room: budgetMatch[2] as Room };
@@ -349,6 +358,10 @@ export function generateStaticParams() {
       slugs.push({ slug: `luxury-${s}-${r}-design` });
     });
   });
+  const CITIES = ["new-york", "los-angeles", "chicago", "houston", "phoenix", "philadelphia", "san-antonio", "san-diego", "dallas", "san-francisco", "austin", "seattle", "denver", "boston", "nashville", "portland", "miami", "atlanta", "minneapolis", "charlotte"];
+  CITIES.forEach((c) => slugs.push({ slug: `ai-interior-design-${c}` }));
+  ["roomgpt", "homestyler", "havenly", "modsy", "planner5d", "decormatters", "roomsketcher"].forEach((c) => slugs.push({ slug: `${c}-alternative` }));
+  ["product-photo", "profile-picture", "passport-photo", "ecommerce", "social-media", "linkedin", "real-estate", "amazon-listing", "etsy-listing", "headshot"].forEach((u) => slugs.push({ slug: `remove-background-${u}` }));
   return slugs;
 }
 
@@ -360,6 +373,22 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  const cityMatch = slug.match(/^ai-interior-design-(.+)$/);
+  if (cityMatch) {
+    const city = cityMatch[1].split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    return { title: `AI Interior Design in ${city} — Room Redesign from $9 | AltorLab`, description: `Transform your ${city} home with AI interior design. Upload a room photo, get an AI redesign in seconds. From $9.` };
+  }
+  const COMP_LABELS: Record<string, string> = { roomgpt: "RoomGPT", homestyler: "Homestyler", havenly: "Havenly", modsy: "Modsy", planner5d: "Planner 5D", decormatters: "DecorMatters", roomsketcher: "RoomSketcher" };
+  const altMatch = slug.match(/^(\w+)-alternative$/);
+  if (altMatch && COMP_LABELS[altMatch[1]]) {
+    const comp = COMP_LABELS[altMatch[1]];
+    return { title: `${comp} Alternative — AltorLab AI Room Redesign ($9/design)`, description: `Looking for a ${comp} alternative? AltorLab offers AI room redesign from $9. No subscription, instant results.` };
+  }
+  const bgMatch = slug.match(/^remove-background-(.+)$/);
+  if (bgMatch) {
+    const use = bgMatch[1].split("-").map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    return { title: `Remove Background from ${use} — Free AI Tool | AltorLab`, description: `Remove backgrounds from ${use.toLowerCase()} images for free with AI. Upload and get a transparent PNG instantly.` };
+  }
   const parsed = parseSlug(slug);
   if (!parsed) return {};
   const { style, room } = parsed;
