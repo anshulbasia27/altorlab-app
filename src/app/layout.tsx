@@ -21,20 +21,20 @@ export const metadata: Metadata = {
     template: "%s | AltorLab",
   },
   description:
-    "AltorLab offers free and affordable AI tools. Transform your room with AI Room Redesign from ₹749.",
+    "AltorLab offers free and affordable AI tools. Transform your room with AI Room Redesign from $9.",
   metadataBase: new URL("https://app.altorlab.org"),
   openGraph: {
     type: "website",
     siteName: "AltorLab",
     title: "AltorLab — Free AI Tools",
     description:
-      "AI Room Redesign from ₹749. Upload your room photo, choose a style, download your redesign.",
+      "AI Room Redesign from $9. Upload your room photo, choose a style, download your redesign.",
     url: "https://app.altorlab.org",
   },
   twitter: {
     card: "summary_large_image",
     title: "AltorLab — Free AI Tools",
-    description: "AI Room Redesign from ₹749.",
+    description: "AI Room Redesign from $9.",
   },
   robots: {
     index: true,

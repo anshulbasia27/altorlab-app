@@ -42,7 +42,7 @@ export const appJsonLd = {
   applicationCategory: "UtilitiesApplication",
   offers: {
     "@type": "Offer",
-    price: "749",
-    priceCurrency: "INR",
+    price: "9",
+    priceCurrency: "USD",
   },
 };

@@ -16,7 +16,7 @@ const STATIC_PAGES = [
 
 const BLOG_SLUGS = [
   "best-ai-interior-design-tools",
-  "redesign-room-749-rupees",
+  "affordable-room-redesign",
   "interior-design-styles-explained",
   "ai-vs-interior-designer-cost",
   "modern-bedroom-small-apartment",

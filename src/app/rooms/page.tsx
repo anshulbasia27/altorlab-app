@@ -5,18 +5,18 @@ import { ROOMS } from "@/lib/seo-data";
 export const metadata: Metadata = {
   title: { absolute: "AI Room Redesign by Room Type — Bedrooms to Kitchens | AltorLab" },
   description:
-    "Explore AI room redesign pages for bedrooms, living rooms, kitchens, bathrooms, home offices, and kids rooms. Redesign any room from ₹749.",
+    "Explore AI room redesign pages for bedrooms, living rooms, kitchens, bathrooms, home offices, and kids rooms. Redesign any room from $9.",
   openGraph: {
     title: "AI Room Redesign by Room Type — Bedrooms to Kitchens | AltorLab",
     description:
-      "Browse room-specific redesign ideas for Indian homes and see how AI can transform your room from ₹749.",
+      "Browse room-specific redesign ideas and see how AI can transform your room from $9.",
     url: "https://app.altorlab.org/rooms",
   },
   twitter: {
     card: "summary_large_image",
     title: "AI Room Redesign by Room Type — Bedrooms to Kitchens | AltorLab",
     description:
-      "Room-specific AI redesign ideas for Indian bedrooms, living rooms, kitchens, bathrooms, home offices, and kids rooms.",
+      "Room-specific AI redesign ideas for bedrooms, living rooms, kitchens, bathrooms, home offices, and kids rooms.",
   },
 };
 
@@ -32,7 +32,7 @@ export default function RoomsHubPage() {
             AI Room Redesign Ideas by Room Type
           </h1>
           <p className="mx-auto max-w-3xl text-lg leading-relaxed text-slate-400">
-            Explore room-specific inspiration for Indian homes, compare design problems by space, and jump into an AI redesign preview before spending on furniture, paint, or renovation.
+            Explore room-specific inspiration, compare design problems by space, and jump into an AI redesign preview before spending on furniture, paint, or renovation.
           </p>
         </div>
       </section>
@@ -53,7 +53,7 @@ export default function RoomsHubPage() {
             </div>
             <h2 className="mb-3 text-2xl font-semibold text-white">AI {room.name} Redesign</h2>
             <p className="mb-4 leading-relaxed text-slate-400">
-              See layouts, planning tips, and common Indian-home challenges for the {room.name.toLowerCase()} before you redesign.
+              See layouts, planning tips, and common challenges for the {room.name.toLowerCase()} before you redesign.
             </p>
             <p className="mb-6 text-sm leading-6 text-slate-500">Average size: {room.avgSize}</p>
             <Link
@@ -70,7 +70,7 @@ export default function RoomsHubPage() {
         <div className="rounded-3xl border border-indigo-500/20 bg-indigo-500/10 p-8 text-center">
           <h2 className="mb-4 text-2xl font-bold text-white">Want to redesign your own room today?</h2>
           <p className="mb-6 text-base leading-relaxed text-indigo-100">
-            Upload your room photo, pick a style, and get an AI transformation from ₹749 instead of waiting weeks for a traditional interior process.
+            Upload your room photo, pick a style, and get an AI transformation from $9 instead of waiting weeks for a traditional interior process.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Link

@@ -16,7 +16,7 @@ const TOOL_FAQS = [
   {
     question: "How much does AI room redesign cost?",
     answer:
-      "Each AI room redesign costs ₹749. No subscription required — pay only for what you use.",
+      "Each AI room redesign costs $9. No subscription required — pay only for what you use.",
   },
   {
     question: "What interior design styles are available?",

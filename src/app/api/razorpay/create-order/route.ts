@@ -7,8 +7,8 @@ interface CreateOrderBody {
   predictionId?: string;
 }
 
-const AMOUNT = 74900;
-const CURRENCY = "INR";
+const AMOUNT = 900;
+const CURRENCY = "USD";
 
 export async function POST(req: Request): Promise<Response> {
   let body: CreateOrderBody;

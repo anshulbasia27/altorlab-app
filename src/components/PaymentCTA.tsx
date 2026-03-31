@@ -168,7 +168,7 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
             Processing...
           </>
         ) : (
-          "Redesign My Room for ₹749"
+          "Redesign My Room for $9"
         )}
       </button>
 
@@ -211,7 +211,7 @@ export default function PaymentCTA({ file, style, roomType, email }: PaymentCTAP
               Processing...
             </>
           ) : (
-            "Redesign My Room — ₹749"
+            "Redesign My Room — $9"
           )}
         </button>
       </div>

@@ -8,7 +8,7 @@ const combos = STYLES.flatMap((style) =>
   IDEA_ROOMS.map((room) => ({
     slug: `${style.slug}-${room.slug}`,
     title: `${style.label} ${room.label}`,
-    blurb: `${style.label} ${room.label.toLowerCase()} ideas with practical Indian-home layouts, colours, and furniture guidance.`,
+    blurb: `${style.label} ${room.label.toLowerCase()} ideas with practical layouts, colours, and furniture guidance.`,
   }))
 );
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     absolute: "Interior Design Ideas by Style and Room | AltorLab",
   },
   description:
-    "Browse 30 AI-friendly room design idea pages across 5 interior styles and 6 room types for Indian homes.",
+    "Browse 30 AI-friendly room design idea pages across 5 interior styles and 6 room types.",
   alternates: {
     canonical: "https://app.altorlab.org/ideas",
   },
@@ -30,7 +30,7 @@ export default function IdeasHubPage() {
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-indigo-400">Browse design combinations</p>
         <h1 className="mb-4 text-4xl font-bold tracking-tight text-white sm:text-5xl">Interior design ideas for every style and room</h1>
         <p className="mb-12 max-w-3xl text-lg leading-8 text-slate-400">
-          Explore all 30 style-and-room combinations built for Indian homes. Each page gives you room-specific sizing, layout tips, colour direction, and a fast path to visualising the concept with AI.
+          Explore all 30 style-and-room combinations. Each page gives you room-specific sizing, layout tips, colour direction, and a fast path to visualising the concept with AI.
         </p>
 
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">

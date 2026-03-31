@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AI Room Redesign — Transform Any Room with AI",
     description:
-      "Upload your room photo and get an AI redesign in seconds. From ₹749.",
+      "Upload your room photo and get an AI redesign in seconds. From $9.",
     url: "https://app.altorlab.org/room-redesign",
   },
 };

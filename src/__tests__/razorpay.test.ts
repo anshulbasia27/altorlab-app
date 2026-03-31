@@ -91,14 +91,14 @@ describe("POST /api/razorpay/create-order", () => {
     expect(res.status).toBe(503);
   });
 
-  it("returns orderId, amount=74900, currency=INR on success", async () => {
+  it("returns orderId, amount=900, currency=USD on success", async () => {
     vi.doMock("razorpay", () => ({
       default: vi.fn().mockImplementation(() => ({
         orders: {
           create: vi.fn().mockResolvedValue({
             id: "order_mock123",
-            amount: 74900,
-            currency: "INR",
+            amount: 900,
+            currency: "USD",
           }),
         },
       })),
@@ -115,8 +115,8 @@ describe("POST /api/razorpay/create-order", () => {
     const body = await res.json();
     expect(res.status).toBe(200);
     expect(body.orderId).toBe("order_mock123");
-    expect(body.amount).toBe(74900);
-    expect(body.currency).toBe("INR");
+    expect(body.amount).toBe(900);
+    expect(body.currency).toBe("USD");
   });
 
   it("stores predictionId in paymentStore when provided", async () => {

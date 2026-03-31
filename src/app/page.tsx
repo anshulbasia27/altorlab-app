@@ -30,7 +30,7 @@ export default function HomePage() {
             <div className="bg-white border border-stone-200 rounded-2xl p-6 hover:border-indigo-400 hover:shadow-md transition-all duration-200 h-full flex flex-col">
               <div className="flex items-center justify-between mb-4">
                 <span className="bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full">LIVE</span>
-                <span className="text-stone-500 text-sm font-medium">₹749/design</span>
+                <span className="text-stone-500 text-sm font-medium">$9/design</span>
               </div>
               <div className="w-full h-40 rounded-xl mb-6 relative overflow-hidden bg-stone-100">
                 <Image 
@@ -83,7 +83,7 @@ export default function HomePage() {
               AltorLab is a collection of free and affordable AI-powered tools for everyday creative tasks. Our flagship tool, AI Room Redesign, transforms your room photos into beautiful redesigns in seconds.
             </p>
             <p>
-              Upload a photo, choose from 5 interior design styles — modern, scandinavian, minimalist, industrial, or bohemian — and download your AI-generated redesign for just ₹749. No subscription required.
+              Upload a photo, choose from 5 interior design styles — modern, scandinavian, minimalist, industrial, or bohemian — and download your AI-generated redesign for just $9. No subscription required.
             </p>
             <p>
               We're building more AI tools including background removal and tattoo design. All tools are browser-based — no app downloads needed. Simple, fast, affordable.

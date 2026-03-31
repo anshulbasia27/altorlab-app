@@ -36,14 +36,14 @@ export default function TermsPage() {
           <p>
             AltorLab provides an AI-powered room redesign service. Users upload a
             photo of their room, select a design style, and receive AI-generated
-            redesign images. The service costs ₹749 per redesign.
+            redesign images. The service costs $9 per redesign.
           </p>
 
           <h2 className="text-xl font-semibold text-white mt-8">
             Pricing and Payment
           </h2>
           <p>
-            The price for each room redesign is ₹749. Pricing is displayed on the
+            The price for each room redesign is $9. Pricing is displayed on the
             website at the time of purchase. All payments are processed securely
             through Razorpay and are subject to successful authorization by your
             selected payment method.

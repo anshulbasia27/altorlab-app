@@ -365,19 +365,19 @@ export async function generateMetadata({
   const { style, room } = parsed;
   const styleLabel = STYLE_DATA[style].adjective;
   const roomLabel = ROOM_DATA[room].label;
-  const titleText = slug.includes("-ideas") ? `10 ${styleLabel} ${roomLabel} Ideas for 2026 — AltorLab` : slug.includes("-inspiration") ? `${styleLabel} ${roomLabel} Inspiration Gallery — AltorLab` : slug.startsWith("budget-") ? `Budget ${styleLabel} ${roomLabel} Design — Under ₹5,000` : slug.startsWith("luxury-") ? `Luxury ${styleLabel} ${roomLabel} — Premium AI Redesign` : `${styleLabel} ${roomLabel} Design Ideas — AI Room Redesign`;
+  const titleText = slug.includes("-ideas") ? `10 ${styleLabel} ${roomLabel} Ideas for 2026 — AltorLab` : slug.includes("-inspiration") ? `${styleLabel} ${roomLabel} Inspiration Gallery — AltorLab` : slug.startsWith("budget-") ? `Budget ${styleLabel} ${roomLabel} Design — Under $60` : slug.startsWith("luxury-") ? `Luxury ${styleLabel} ${roomLabel} — Premium AI Redesign` : `${styleLabel} ${roomLabel} Design Ideas — AI Room Redesign`;
   return {
     title: titleText,
-    description: `Transform your ${roomLabel.toLowerCase()} with ${styleLabel} design. Upload your photo and get an AI-redesigned ${roomLabel.toLowerCase()} in seconds. From ₹749.`,
+    description: `Transform your ${roomLabel.toLowerCase()} with ${styleLabel} design. Upload your photo and get an AI-redesigned ${roomLabel.toLowerCase()} in seconds. From $9.`,
     openGraph: {
       title: titleText,
-      description: `Explore ${styleLabel.toLowerCase()} design ideas for your ${roomLabel.toLowerCase()} and see an instant AI transformation. From ₹749.`,
+      description: `Explore ${styleLabel.toLowerCase()} design ideas for your ${roomLabel.toLowerCase()} and see an instant AI transformation. From $9.`,
       url: `https://app.altorlab.org/${slug}`,
     },
     twitter: {
       card: "summary_large_image",
       title: titleText,
-      description: `AI-powered ${styleLabel.toLowerCase()} ${roomLabel.toLowerCase()} design from ₹749.`,
+      description: `AI-powered ${styleLabel.toLowerCase()} ${roomLabel.toLowerCase()} design from $9.`,
     },
   };
 }
@@ -515,7 +515,7 @@ export default async function SEOPage({
           <p className="text-indigo-100 mb-6 text-base leading-relaxed">
             Upload your photo and see your {roomLabel.toLowerCase()} transformed in{" "}
             {styleLabel.toLowerCase()} style. AI-powered results in seconds,
-            starting from ₹749.
+            starting from $9.
           </p>
           <Link
             href="/room-redesign"
