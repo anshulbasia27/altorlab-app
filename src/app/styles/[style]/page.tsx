@@ -164,7 +164,7 @@ const STYLE_DETAILS: Record<string, StyleNarrative> = {
       {
         question: "Which American materials suit bohemian interiors best?",
         answer:
-          "Cane, jute, cotton, block prints, terracotta, brass, wood, and handloom textiles all work beautifully in bohemian rooms.",
+          "Cane, jute, cotton, patterned prints, terracotta, brass, wood, and woven textiles all work beautifully in bohemian rooms.",
       },
     ],
   },

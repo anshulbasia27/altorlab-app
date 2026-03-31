@@ -45,49 +45,49 @@ export default function RoomRedesignPage() {
       <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-white mb-4 tracking-tight">
+          <h1 className="text-4xl font-bold text-stone-900 mb-4 tracking-tight">
             Redesign Your Room with AI
           </h1>
-          <p className="text-lg text-slate-400 max-w-2xl mx-auto">
+          <p className="text-lg text-stone-500 max-w-2xl mx-auto">
             Upload a photo of your room, choose a style, and let our AI generate a stunning new interior design in seconds.
           </p>
         </div>
 
-        <div className="bg-slate-800/50 border border-slate-700 rounded-2xl p-6 sm:p-8 shadow-xl backdrop-blur-sm">
+        <div className="bg-white border border-stone-200 rounded-2xl p-6 sm:p-8 shadow-sm">
           <div className="space-y-10">
             <section>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-8 h-8 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-sm">
+                <div className="w-8 h-8 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold text-sm">
                   1
                 </div>
-                <h2 className="text-xl font-semibold text-white">Upload Photo</h2>
+                <h2 className="text-xl font-semibold text-stone-900">Upload Photo</h2>
               </div>
               <RoomUpload onFileSelect={setFile} selectedFile={file} />
             </section>
 
             <section>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-8 h-8 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-sm">
+                <div className="w-8 h-8 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold text-sm">
                   2
                 </div>
-                <h2 className="text-xl font-semibold text-white">Room Details</h2>
+                <h2 className="text-xl font-semibold text-stone-900">Room Details</h2>
               </div>
               <RoomTypeSelector selectedType={roomType} onSelect={setRoomType} />
             </section>
 
             <section>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-8 h-8 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-sm">
+                <div className="w-8 h-8 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold text-sm">
                   3
                 </div>
-                <h2 className="text-xl font-semibold text-white">Choose Style</h2>
+                <h2 className="text-xl font-semibold text-stone-900">Choose Style</h2>
               </div>
               <StyleSelector selectedStyle={style} onSelect={setStyle} />
             </section>
 
-            <section className="pt-6 border-t border-slate-700">
+            <section className="pt-6 border-t border-stone-200">
               <div className="mb-6">
-                <label htmlFor="email" className="block text-sm font-medium text-slate-300 mb-2">
+                <label htmlFor="email" className="block text-sm font-medium text-stone-700 mb-2">
                   Where should we send your receipt? (Optional)
                 </label>
                 <input
@@ -96,7 +96,7 @@ export default function RoomRedesignPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="your@email.com"
-                  className="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-base text-white placeholder:text-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
+                  className="w-full bg-white border border-stone-300 rounded-xl px-4 py-3 text-base text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
                 />
               </div>
 
@@ -106,19 +106,19 @@ export default function RoomRedesignPage() {
         </div>
 
         <section className="mt-16">
-          <h2 className="text-2xl font-bold text-white mb-8 text-center">
+          <h2 className="text-2xl font-bold text-stone-900 mb-8 text-center">
             Frequently Asked Questions About AI Room Redesign
           </h2>
           <div className="space-y-6">
             {TOOL_FAQS.map((faq) => (
               <div
                 key={faq.question}
-                className="border border-slate-700 rounded-xl p-6"
+                className="border border-stone-200 bg-white rounded-xl p-6 shadow-sm"
               >
-                <h3 className="text-lg font-semibold text-white mb-2">
+                <h3 className="text-lg font-semibold text-stone-900 mb-2">
                   {faq.question}
                 </h3>
-                <p className="text-slate-400 leading-relaxed">{faq.answer}</p>
+                <p className="text-stone-600 leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>

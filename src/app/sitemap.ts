@@ -34,6 +34,51 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  const designPages = STYLES.flatMap((style) =>
+    IDEA_ROOMS.map((room) => ({
+      url: `https://app.altorlab.org/ai-${style.slug}-${room.slug}-design`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }))
+  );
+
+  const ideasPages = STYLES.flatMap((style) =>
+    IDEA_ROOMS.map((room) => ({
+      url: `https://app.altorlab.org/ai-${style.slug}-${room.slug}-ideas`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }))
+  );
+
+  const inspirationPages = STYLES.flatMap((style) =>
+    IDEA_ROOMS.map((room) => ({
+      url: `https://app.altorlab.org/ai-${style.slug}-${room.slug}-inspiration`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }))
+  );
+
+  const budgetPages = ["modern", "scandinavian"].flatMap((style) =>
+    IDEA_ROOMS.map((room) => ({
+      url: `https://app.altorlab.org/budget-${style}-${room.slug}-design`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }))
+  );
+
+  const luxuryPages = ["modern", "industrial"].flatMap((style) =>
+    IDEA_ROOMS.map((room) => ({
+      url: `https://app.altorlab.org/luxury-${style}-${room.slug}-design`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }))
+  );
+
   const blogPages = BLOG_SLUGS.map((slug) => ({
     url: `https://app.altorlab.org/blog/${slug}`,
     lastModified: new Date(),
@@ -49,6 +94,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: page.priority,
     })),
     ...ideaPages,
+    ...designPages,
+    ...ideasPages,
+    ...inspirationPages,
+    ...budgetPages,
+    ...luxuryPages,
     ...blogPages,
   ];
 }

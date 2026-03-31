@@ -71,14 +71,14 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "Other AI tool types worth knowing",
         paragraphs: [
           "Some users may eventually want more than style visualisation. If you are doing a larger renovation, look for tools that help with layout logic, cabinetry planning, or 3D walkthroughs. Designers and architects often use specialised software that combines rendering, drafting, and presentation workflows. Those tools can be powerful, but they usually come with higher learning curves and higher prices. They make sense when the project itself is larger and more technical.",
-          "There are also inspiration-first tools that generate moodboards, colour stories, and concept art. These are useful if you are still searching for taste language or trying to understand how styles differ. They are less useful when you already have a room and need to decide between an 84-inch sofa and a slimmer sectional, or between oak laminate and a greige PU finish. In those cases, room-specific visualisation wins.",
+          "There are also inspiration-first tools that generate moodboards, colour stories, and concept art. These are useful if you are still searching for taste language or trying to understand how styles differ. They are less useful when you already have a room and need to decide between an 84-inch sofa and a slimmer sectional, or between oak laminate and another finish. In those cases, room-specific visualisation wins.",
         ],
       },
       {
         heading: "How to evaluate AI outputs critically",
         paragraphs: [
           "Never treat an AI render as a literal bill of materials. Think of it as a decision aid. Ask what the image is telling you emotionally and spatially. Does the room feel calmer? Warmer? More organised? More expensive? Bigger? Then break down why. It may be the palette, the height of the furniture, the amount of open floor, or the lighting mood. Those are the transferable lessons, even if you never buy the exact objects shown.",
-          "It is also wise to compare the AI result with your realities: children, pets, storage volume, maintenance effort, climate, and budget. A gorgeous white boucle sofa might look perfect in a render and be wrong for a high-traffic family home. The strongest users of AI tools are not the ones who accept outputs blindly; they are the ones who use the outputs to ask better practical questions.",
+          "It is also wise to compare the AI result with your realities: children, pets, storage volume, maintenance effort, and budget. A gorgeous white boucle sofa might look perfect in a render and be wrong for a high-traffic family home. The strongest users of AI tools are not the ones who accept outputs blindly; they are the ones who use the outputs to ask better practical questions.",
         ],
       },
       {
@@ -127,7 +127,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "What you actually get from a room redesign preview",
         paragraphs: [
           "A good AI redesign is not just a pretty image. It helps you test style direction, furniture density, colour balance, and mood. You can compare whether your room feels better as modern, Scandinavian, minimalist, industrial, or bohemian. You can notice whether lighter curtains make the room feel larger or whether a darker media wall makes the space more grounded. These are difficult insights to get from imagination alone.",
-          "Because the preview is based on your own uploaded room photo, it is more persuasive than a generic inspiration image. You are not trying to mentally map a foreign apartment onto your own home. You are seeing your own walls, your own windows, and your own layout reinterpreted. That makes planning faster and family discussions easier.",
+          "Because the preview is based on your own uploaded room photo, it is more persuasive than a generic inspiration image. You are not trying to mentally map someone else's apartment onto your own home. You are seeing your own walls, your own windows, and your own layout reinterpreted. That makes planning faster and family discussions easier.",
         ],
       },
       {
@@ -141,7 +141,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "Who benefits most from a low-cost AI redesign",
         paragraphs: [
           "Renters benefit because they can test low-commitment changes like colour accents, furniture style, and layout without spending on major alterations. First-time homeowners benefit because they often have the highest uncertainty and the largest purchase list. Families benefit because a single image can align opinions more quickly than long debates about whether something will look too plain or too busy.",
-          "The service is also useful for people who are not ready to hire an interior designer. Maybe the room is just one bedroom, not a full-house project. Maybe the budget is limited. Maybe you simply want to arrive at a stronger brief before speaking to a carpenter or decorator. In all those cases, low-cost clarity is worth more than vague inspiration.",
+          "The service is also useful for people who are not ready to hire an interior designer. Maybe the room is just one bedroom, not a full-house project. Maybe the budget is limited. Maybe you simply want to arrive at a stronger brief before speaking to a contractor or decorator. In all those cases, low-cost clarity is worth more than vague inspiration.",
         ],
       },
       {
@@ -225,7 +225,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         heading: "Why style clarity saves money",
         paragraphs: [
           "Most decor mistakes happen when purchases come from mixed taste signals. One item is modern, another is boho, another is ultra-glam, and the room never settles. Once you understand your style language, even a modest budget feels more effective because every buy pulls in the same direction.",
-          "That is why learning these five styles is not just an aesthetic exercise. It is a budgeting tool. Clear taste reduces regret. It helps you say no faster. And it makes every later design decision easier, from paint to textiles to carpentry detailing.",
+          "That is why learning these five styles is not just an aesthetic exercise. It is a budgeting tool. Clear taste reduces regret. It helps you say no faster. And it makes every later design decision easier, from paint to textiles to renovation detailing.",
         ],
       },
     ],
@@ -259,7 +259,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
       {
         heading: "What a professional interior designer charges for",
         paragraphs: [
-          "A professional interior designer is not charging only for an image. They are charging for measurement, concept development, layout thinking, sourcing, vendor management, detailing, revisions, and often execution coordination. Depending on the city and scope, fees may be fixed, percentage-based, or bundled into a turnkey package. For a full-home or deeply customised project, that expertise can be extremely valuable.",
+          "A professional interior designer is not charging only for an image. They are charging for measurement, concept development, layout thinking, sourcing, vendor management, detailing, revisions, and often execution coordination. Depending on the scope, fees may be fixed, percentage-based, or bundled into a turnkey package. For a full-home or deeply customised project, that expertise can be extremely valuable.",
           "But many homeowners do not actually need the full stack on day one. They may only want to know whether their bedroom should be modern or Scandinavian, whether the living room needs lighter upholstery, or whether a built-in TV wall is worth pursuing. Paying for full-service design when the real problem is early uncertainty can be inefficient.",
         ],
       },
@@ -285,7 +285,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
         ],
       },
       {
-        heading: "When a professional designer is worth every rupee",
+        heading: "When a professional designer is worth the investment",
         paragraphs: [
           "If you are redoing kitchens, bathrooms, wardrobes, lighting layouts, custom furniture, or a full home, professional help can save you from technical errors that no visual tool can solve. Execution complexity is where designers earn their fees. They coordinate dimensions, tolerances, finishes, vendors, and problem solving in a way that static renders cannot.",
           "The best scenario for many homeowners is hybrid: use AI to clarify taste and direction, then bring in professional help where measurements, construction, or sourcing become serious. That sequence keeps costs more rational while preserving quality where it matters most.",

@@ -307,22 +307,49 @@ function toLabel(kebab: string): string {
 }
 
 function parseSlug(slug: string): { style: Style; room: Room } | null {
-  const inner = slug.replace(/^ai-/, "").replace(/-design$/, "");
-  for (const style of STYLES) {
-    if (inner === style || inner.startsWith(`${style}-`)) {
-      const roomCandidate = inner.slice(style.length + 1);
-      if (ROOMS.includes(roomCandidate as Room)) {
-        return { style, room: roomCandidate as Room };
-      }
-    }
+  const budgetMatch = slug.match(/^budget-(\w+)-(.+)-design$/);
+  if (budgetMatch && STYLES.includes(budgetMatch[1] as Style) && ROOMS.includes(budgetMatch[2] as Room)) {
+    return { style: budgetMatch[1] as Style, room: budgetMatch[2] as Room };
+  }
+  const luxuryMatch = slug.match(/^luxury-(\w+)-(.+)-design$/);
+  if (luxuryMatch && STYLES.includes(luxuryMatch[1] as Style) && ROOMS.includes(luxuryMatch[2] as Room)) {
+    return { style: luxuryMatch[1] as Style, room: luxuryMatch[2] as Room };
+  }
+  const match = slug.match(/^ai-(\w+)-(.+?)-(design|ideas|inspiration)$/);
+  if (match && STYLES.includes(match[1] as Style) && ROOMS.includes(match[2] as Room)) {
+    return { style: match[1] as Style, room: match[2] as Room };
   }
   return null;
 }
 
 export function generateStaticParams() {
-  return STYLES.flatMap((style) =>
-    ROOMS.map((room) => ({ slug: `ai-${style}-${room}-design` }))
-  );
+  const slugs: { slug: string }[] = [];
+  STYLES.forEach((s) => {
+    ROOMS.forEach((r) => {
+      slugs.push({ slug: `ai-${s}-${r}-design` });
+    });
+  });
+  STYLES.forEach((s) => {
+    ROOMS.forEach((r) => {
+      slugs.push({ slug: `ai-${s}-${r}-ideas` });
+    });
+  });
+  STYLES.forEach((s) => {
+    ROOMS.forEach((r) => {
+      slugs.push({ slug: `ai-${s}-${r}-inspiration` });
+    });
+  });
+  (["modern", "scandinavian"] as const).forEach((s) => {
+    ROOMS.forEach((r) => {
+      slugs.push({ slug: `budget-${s}-${r}-design` });
+    });
+  });
+  (["modern", "industrial"] as const).forEach((s) => {
+    ROOMS.forEach((r) => {
+      slugs.push({ slug: `luxury-${s}-${r}-design` });
+    });
+  });
+  return slugs;
 }
 
 export const dynamicParams = false;
@@ -338,6 +365,7 @@ export async function generateMetadata({
   const { style, room } = parsed;
   const styleLabel = STYLE_DATA[style].adjective;
   const roomLabel = ROOM_DATA[room].label;
+  const titleText = slug.includes("-ideas") ? `10 ${styleLabel} ${roomLabel} Ideas for 2026 — AltorLab` : slug.includes("-inspiration") ? `${styleLabel} ${roomLabel} Inspiration Gallery — AltorLab` : slug.startsWith("budget-") ? `Budget ${styleLabel} ${roomLabel} Design — Under $60` : slug.startsWith("luxury-") ? `Luxury ${styleLabel} ${roomLabel} — Premium AI Redesign` : `${styleLabel} ${roomLabel} Design Ideas — AI Room Redesign`;
   return {
     title: `${styleLabel} ${roomLabel} Design Ideas — AI Room Redesign`,
     description: `Transform your ${roomLabel.toLowerCase()} with ${styleLabel} design. Upload your photo and get an AI-redesigned ${roomLabel.toLowerCase()} in seconds. From $9.`,

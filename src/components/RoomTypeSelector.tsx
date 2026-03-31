@@ -58,7 +58,7 @@ const roomTypes: { id: RoomType; name: string; icon: React.ReactNode }[] = [
 export default function RoomTypeSelector({ selectedType, onSelect }: RoomTypeSelectorProps) {
   return (
     <div className="w-full">
-      <h3 className="text-lg font-medium text-slate-200 mb-4">Room Type</h3>
+      <h3 className="text-lg font-medium text-stone-900 mb-4">Room Type</h3>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
         {roomTypes.map((type) => (
           <button
@@ -67,11 +67,11 @@ export default function RoomTypeSelector({ selectedType, onSelect }: RoomTypeSel
             onClick={() => onSelect(type.id)}
             className={`flex items-center gap-3 p-3 min-h-[44px] rounded-xl border transition-all duration-200 ${
               selectedType === type.id
-                ? "border-indigo-500 bg-indigo-500/10 text-indigo-400"
-                : "border-slate-700 bg-slate-800/50 text-slate-300 hover:border-indigo-400 hover:bg-slate-800"
+                ? "border-indigo-500 bg-indigo-50 text-indigo-700"
+                : "border-stone-200 bg-white text-stone-600 hover:border-indigo-400 hover:bg-stone-50"
             }`}
           >
-            <div className={`${selectedType === type.id ? "text-indigo-400" : "text-slate-400"}`}>
+            <div className={`${selectedType === type.id ? "text-indigo-600" : "text-stone-400"}`}>
               {type.icon}
             </div>
             <span className="font-medium text-sm">{type.name}</span>

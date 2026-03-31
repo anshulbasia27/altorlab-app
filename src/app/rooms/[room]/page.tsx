@@ -89,7 +89,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
       {
         question: "Should I redesign the living room before buying a new sofa?",
         answer:
-          "Yes. A preview first prevents the most expensive mistake in living rooms: buying a large piece that does not suit the room’s true scale or layout.",
+          "Yes. A preview first prevents the most expensive mistake in living rooms: buying a large piece that does not suit the room's true scale or layout.",
       },
     ],
   },
@@ -229,7 +229,7 @@ const ROOM_DETAILS: Record<string, RoomNarrative> = {
       {
         question: "What matters most in an American kids room?",
         answer:
-          "Storage, safety, durability, and enough open space for movement matter most, especially in compact apartment bedrooms.",
+          "Storage, safety, durability, and enough open space for movement matter most, especially in compact bedrooms.",
       },
     ],
   },
