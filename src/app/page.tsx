@@ -20,9 +20,41 @@ export const metadata: Metadata = {
   },
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How does AI Room Redesign work?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Upload a room photo, choose your preferred design style, and AltorLab generates a redesigned version of your space using AI.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does AI Room Redesign cost?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "AI Room Redesign costs $9 per design with no subscription required.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What other AI tools is AltorLab launching?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "AltorLab is also launching a free background remover and a free tattoo designer for US consumers.",
+      },
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-stone-50 text-stone-600">
+      <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
       <section className="py-20 px-4 sm:px-6 lg:px-8 text-center bg-white border-b border-stone-200">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 text-indigo-600 text-sm font-medium mb-6">
           ✨ 500+ rooms redesigned

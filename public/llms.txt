@@ -1,0 +1,20 @@
+# AltorLab — AI Tools
+
+> AltorLab offers AI-powered tools for US consumers. AI Room Redesign transforms room photos into stunning redesigns for $9. Background removal and tattoo design coming soon.
+
+## Tools
+- [AI Room Redesign](https://app.altorlab.org/room-redesign): Upload photo, choose style, get redesign ($9)
+- [Background Remover](https://app.altorlab.org/tools/background-remover): Remove backgrounds instantly (coming soon)
+- [Tattoo Designer](https://app.altorlab.org/tools/tattoo-designer): Generate tattoo designs (coming soon)
+
+## Design Styles
+- [Modern](https://app.altorlab.org/styles/modern)
+- [Scandinavian](https://app.altorlab.org/styles/scandinavian)
+- [Minimalist](https://app.altorlab.org/styles/minimalist)
+- [Industrial](https://app.altorlab.org/styles/industrial)
+- [Bohemian](https://app.altorlab.org/styles/bohemian)
+
+## Pricing
+- AI Room Redesign: $9 per design
+- Background Remover: Free
+- Tattoo Designer: Free
