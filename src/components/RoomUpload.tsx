@@ -75,10 +75,10 @@ export default function RoomUpload({ onFileSelect, selectedFile }: RoomUploadPro
         type="button"
         className={`relative w-full min-h-[120px] h-64 rounded-xl border-2 border-dashed transition-all duration-200 flex flex-col items-center justify-center cursor-pointer overflow-hidden ${
           isDragging
-            ? "border-indigo-500 bg-indigo-500/10"
+            ? "border-indigo-500 bg-indigo-50"
             : previewUrl
-            ? "border-slate-700 bg-slate-800/50"
-            : "border-slate-700 hover:border-indigo-400 hover:bg-slate-800/50 bg-slate-800/30"
+            ? "border-stone-300 bg-stone-50"
+            : "border-stone-300 hover:border-indigo-400 hover:bg-stone-50 bg-stone-50/50"
         }`}
         onDragOver={handleDragOver}
         onDragLeave={handleDragLeave}
@@ -113,7 +113,7 @@ export default function RoomUpload({ onFileSelect, selectedFile }: RoomUploadPro
           </div>
         ) : (
           <div className="flex flex-col items-center justify-center p-6 text-center">
-            <div className="w-16 h-16 mb-4 rounded-full bg-slate-800 flex items-center justify-center text-indigo-400">
+            <div className="w-16 h-16 mb-4 rounded-full bg-white shadow-sm border border-stone-100 flex items-center justify-center text-indigo-500">
               <svg
                 className="w-8 h-8"
                 fill="none"
@@ -130,11 +130,11 @@ export default function RoomUpload({ onFileSelect, selectedFile }: RoomUploadPro
                 />
               </svg>
             </div>
-            <p className="text-lg font-medium text-slate-200 mb-1">
+            <p className="text-lg font-medium text-stone-700 mb-1">
               Drop your room photo here
             </p>
-            <p className="text-sm text-slate-400">or click to upload</p>
-            <p className="text-xs text-slate-500 mt-4">
+            <p className="text-sm text-stone-500">or click to upload</p>
+            <p className="text-xs text-stone-400 mt-4">
               Supports JPEG, PNG, WebP up to 10MB
             </p>
           </div>
