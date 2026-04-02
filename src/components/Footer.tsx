@@ -23,6 +23,8 @@ export default function Footer() {
         <span className="text-stone-300">·</span>
         <a href="https://altorlab.dev" target="_blank" rel="noopener noreferrer" className="hover:text-stone-700 transition-colors">Vector Search</a>
         <span className="text-stone-300">·</span>
+        <a href="https://altorlab.app" target="_blank" rel="noopener noreferrer" className="hover:text-stone-700 transition-colors">Accessibility</a>
+        <span className="text-stone-300">·</span>
         <a href="https://altorlab.xyz" target="_blank" rel="noopener noreferrer" className="hover:text-stone-700 transition-colors">AI Marketing</a>
         <span className="text-stone-300">·</span>
         <a href="https://app.altorlab.org" target="_blank" rel="noopener noreferrer" className="hover:text-stone-700 transition-colors">Room Redesign</a>
