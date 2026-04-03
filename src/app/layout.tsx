@@ -23,12 +23,6 @@ export const metadata: Metadata = {
   description:
     "AltorLab offers free and affordable AI tools. Transform your room with AI Room Redesign from $9.",
   metadataBase: new URL("https://app.altorlab.org"),
-  alternates: {
-    canonical: "https://app.altorlab.org",
-    languages: {
-      "en-US": "https://app.altorlab.org",
-    },
-  },
   openGraph: {
     type: "website",
     siteName: "AltorLab",
