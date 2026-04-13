@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "How to Redesign Your Room Online with AI Tools in 2024",
   description: "Discover free AI tools to redesign your room instantly. Upload photos and visualize new layouts, colors, and furniture before you buy.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/how-to-redesign-your-room-online" },
+  alternates: { canonical: "https://app.altorlab.org/blog/how-to-redesign-your-room-online" },
   openGraph: {
     title: "How to Redesign Your Room Online with AI Tools in 2024",
     description: "Discover free AI tools to redesign your room instantly. Upload photos and visualize new layouts, colors, and furniture before you buy.",
-    url: "https://kundlimilan.co.in/blog/how-to-redesign-your-room-online",
+    url: "https://app.altorlab.org/blog/how-to-redesign-your-room-online",
     type: "article",
   },
 };

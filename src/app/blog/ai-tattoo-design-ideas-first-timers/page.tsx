@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "AI Tattoo Design Ideas Perfect for Your First Ink",
   description: "Discover AI-powered tattoo designs tailored for beginners. Visualize your first tattoo before committing with smart design tools.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/ai-tattoo-design-ideas-first-timers" },
+  alternates: { canonical: "https://app.altorlab.org/blog/ai-tattoo-design-ideas-first-timers" },
   openGraph: {
     title: "AI Tattoo Design Ideas Perfect for Your First Ink",
     description: "Discover AI-powered tattoo designs tailored for beginners. Visualize your first tattoo before committing with smart design tools.",
-    url: "https://kundlimilan.co.in/blog/ai-tattoo-design-ideas-first-timers",
+    url: "https://app.altorlab.org/blog/ai-tattoo-design-ideas-first-timers",
     type: "article",
   },
 };

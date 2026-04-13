@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Bohemian Room Decor AI: Design Your Space in Seconds",
   description: "Transform any room into a boho paradise with AI. Generate unique bohemian decor ideas, visualize designs instantly, and redesign your space.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/bohemian-room-decor-ai-generated" },
+  alternates: { canonical: "https://app.altorlab.org/blog/bohemian-room-decor-ai-generated" },
   openGraph: {
     title: "Bohemian Room Decor AI: Design Your Space in Seconds",
     description: "Transform any room into a boho paradise with AI. Generate unique bohemian decor ideas, visualize designs instantly, and redesign your space.",
-    url: "https://kundlimilan.co.in/blog/bohemian-room-decor-ai-generated",
+    url: "https://app.altorlab.org/blog/bohemian-room-decor-ai-generated",
     type: "article",
   },
 };

@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Free AI Background Remover for Etsy & Amazon Sellers",
   description: "Remove product backgrounds instantly with AI. Perfect for Etsy and Amazon sellers who need professional photos fast without design skills.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/free-ai-background-remover-etsy-amazon-sellers" },
+  alternates: { canonical: "https://app.altorlab.org/blog/free-ai-background-remover-etsy-amazon-sellers" },
   openGraph: {
     title: "Free AI Background Remover for Etsy & Amazon Sellers",
     description: "Remove product backgrounds instantly with AI. Perfect for Etsy and Amazon sellers who need professional photos fast without design skills.",
-    url: "https://kundlimilan.co.in/blog/free-ai-background-remover-etsy-amazon-sellers",
+    url: "https://app.altorlab.org/blog/free-ai-background-remover-etsy-amazon-sellers",
     type: "article",
   },
 };

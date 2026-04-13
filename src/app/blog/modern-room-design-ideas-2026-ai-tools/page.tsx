@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Modern Room Design Ideas 2026: AI-Powered Solutions",
   description: "Transform your space with AI room design tools. Get instant modern room makeovers, remove backgrounds, and visualize 2026 interior trends.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/modern-room-design-ideas-2026-ai-tools" },
+  alternates: { canonical: "https://app.altorlab.org/blog/modern-room-design-ideas-2026-ai-tools" },
   openGraph: {
     title: "Modern Room Design Ideas 2026: AI-Powered Solutions",
     description: "Transform your space with AI room design tools. Get instant modern room makeovers, remove backgrounds, and visualize 2026 interior trends.",
-    url: "https://kundlimilan.co.in/blog/modern-room-design-ideas-2026-ai-tools",
+    url: "https://app.altorlab.org/blog/modern-room-design-ideas-2026-ai-tools",
     type: "article",
   },
 };

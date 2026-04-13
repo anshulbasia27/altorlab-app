@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "AI Art Deco Room Design for NYC Apartments",
   description: "Transform your NYC apartment with AI-generated art deco designs. Instant room redesigns that capture 1920s glamour in modern spaces.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/ai-art-deco-room-design-nyc-apartments" },
+  alternates: { canonical: "https://app.altorlab.org/blog/ai-art-deco-room-design-nyc-apartments" },
   openGraph: {
     title: "AI Art Deco Room Design for NYC Apartments",
     description: "Transform your NYC apartment with AI-generated art deco designs. Instant room redesigns that capture 1920s glamour in modern spaces.",
-    url: "https://kundlimilan.co.in/blog/ai-art-deco-room-design-nyc-apartments",
+    url: "https://app.altorlab.org/blog/ai-art-deco-room-design-nyc-apartments",
     type: "article",
   },
 };

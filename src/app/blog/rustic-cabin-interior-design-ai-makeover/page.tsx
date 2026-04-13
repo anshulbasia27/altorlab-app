@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Rustic Cabin Interior Design AI Makeover in Seconds",
   description: "Transform your cabin with AI-powered interior design. Upload photos and get instant rustic makeovers with authentic wood, stone, and cozy elements.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/rustic-cabin-interior-design-ai-makeover" },
+  alternates: { canonical: "https://app.altorlab.org/blog/rustic-cabin-interior-design-ai-makeover" },
   openGraph: {
     title: "Rustic Cabin Interior Design AI Makeover in Seconds",
     description: "Transform your cabin with AI-powered interior design. Upload photos and get instant rustic makeovers with authentic wood, stone, and cozy elements.",
-    url: "https://kundlimilan.co.in/blog/rustic-cabin-interior-design-ai-makeover",
+    url: "https://app.altorlab.org/blog/rustic-cabin-interior-design-ai-makeover",
     type: "article",
   },
 };

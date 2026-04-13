@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "AI Kitchen Redesign: Transform Your Space in Minutes",
   description: "Redesign your kitchen using AI tools—no renovation needed. Upload a photo and instantly visualize new layouts, colors, and styles.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/ai-kitchen-redesign-without-renovating" },
+  alternates: { canonical: "https://app.altorlab.org/blog/ai-kitchen-redesign-without-renovating" },
   openGraph: {
     title: "AI Kitchen Redesign: Transform Your Space in Minutes",
     description: "Redesign your kitchen using AI tools—no renovation needed. Upload a photo and instantly visualize new layouts, colors, and styles.",
-    url: "https://kundlimilan.co.in/blog/ai-kitchen-redesign-without-renovating",
+    url: "https://app.altorlab.org/blog/ai-kitchen-redesign-without-renovating",
     type: "article",
   },
 };

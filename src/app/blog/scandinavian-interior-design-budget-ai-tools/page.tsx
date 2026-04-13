@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Scandinavian Design on Budget: AI Room Redesign Tools",
   description: "Transform your space with Nordic style using free AI interior design tools. Get instant room makeovers without hiring a designer.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/scandinavian-interior-design-budget-ai-tools" },
+  alternates: { canonical: "https://app.altorlab.org/blog/scandinavian-interior-design-budget-ai-tools" },
   openGraph: {
     title: "Scandinavian Design on Budget: AI Room Redesign Tools",
     description: "Transform your space with Nordic style using free AI interior design tools. Get instant room makeovers without hiring a designer.",
-    url: "https://kundlimilan.co.in/blog/scandinavian-interior-design-budget-ai-tools",
+    url: "https://app.altorlab.org/blog/scandinavian-interior-design-budget-ai-tools",
     type: "article",
   },
 };

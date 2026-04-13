@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "AI-Powered Minimalist Room Ideas for US Apartments",
   description: "Transform your apartment with AI room design tools. Get instant minimalist design ideas, remove backgrounds, and visualize your space.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/ai-minimalist-room-design-us-apartments" },
+  alternates: { canonical: "https://app.altorlab.org/blog/ai-minimalist-room-design-us-apartments" },
   openGraph: {
     title: "AI-Powered Minimalist Room Ideas for US Apartments",
     description: "Transform your apartment with AI room design tools. Get instant minimalist design ideas, remove backgrounds, and visualize your space.",
-    url: "https://kundlimilan.co.in/blog/ai-minimalist-room-design-us-apartments",
+    url: "https://app.altorlab.org/blog/ai-minimalist-room-design-us-apartments",
     type: "article",
   },
 };

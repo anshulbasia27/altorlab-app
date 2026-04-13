@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Industrial Style Room Makeover with AI Design Tools",
   description: "Transform any room into an industrial-style space using AI redesign tools. Instant previews, multiple layout options, and professional results.",
-  alternates: { canonical: "https://kundlimilan.co.in/blog/industrial-style-room-makeover-ai-tools" },
+  alternates: { canonical: "https://app.altorlab.org/blog/industrial-style-room-makeover-ai-tools" },
   openGraph: {
     title: "Industrial Style Room Makeover with AI Design Tools",
     description: "Transform any room into an industrial-style space using AI redesign tools. Instant previews, multiple layout options, and professional results.",
-    url: "https://kundlimilan.co.in/blog/industrial-style-room-makeover-ai-tools",
+    url: "https://app.altorlab.org/blog/industrial-style-room-makeover-ai-tools",
     type: "article",
   },
 };
