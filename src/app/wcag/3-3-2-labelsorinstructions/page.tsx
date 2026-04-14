@@ -61,7 +61,7 @@ export default function WcagPage() {
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-stone-900 mb-3">How to Fix</h2>
-          <p className="text-stone-600 leading-relaxed">Use <label> elements associated with every form field. Add instructions for complex inputs.</p>
+          <p className="text-stone-600 leading-relaxed">Use &lt;label&gt; elements associated with every form field. Add instructions for complex inputs.</p>
         </section>
 
         <section className="mb-8">
@@ -77,7 +77,7 @@ export default function WcagPage() {
             </div>
             <div className="p-4 border border-stone-200 rounded-lg">
               <h3 className="font-medium text-stone-900 mb-2">How do I fix WCAG 3.3.2 violations?</h3>
-              <p className="text-stone-600 text-sm">Use <label> elements associated with every form field. Add instructions for complex inputs.</p>
+              <p className="text-stone-600 text-sm">Use &lt;label&gt; elements associated with every form field. Add instructions for complex inputs.</p>
             </div>
           </div>
         </section>

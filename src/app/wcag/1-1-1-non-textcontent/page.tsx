@@ -61,7 +61,7 @@ export default function WcagPage() {
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-stone-900 mb-3">How to Fix</h2>
-          <p className="text-stone-600 leading-relaxed">Add descriptive alt attributes to all <img> tags. Use alt='' for decorative images.</p>
+          <p className="text-stone-600 leading-relaxed">Add descriptive alt attributes to all &lt;img&gt; tags. Use alt={''} for decorative images.</p>
         </section>
 
         <section className="mb-8">
@@ -77,7 +77,7 @@ export default function WcagPage() {
             </div>
             <div className="p-4 border border-stone-200 rounded-lg">
               <h3 className="font-medium text-stone-900 mb-2">How do I fix WCAG 1.1.1 violations?</h3>
-              <p className="text-stone-600 text-sm">Add descriptive alt attributes to all <img> tags. Use alt='' for decorative images.</p>
+              <p className="text-stone-600 text-sm">Add descriptive alt attributes to all &lt;img&gt; tags. Use alt={''} for decorative images.</p>
             </div>
           </div>
         </section>

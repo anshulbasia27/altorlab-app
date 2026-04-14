@@ -16,7 +16,7 @@ export default function WcagPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is WCAG 3.1.1 Language of Page?", "acceptedAnswer": {"@type": "Answer", "text": "The default language of each page must be identified in the code."}}, {"@type": "Question", "name": "How do I test for WCAG 3.1.1 compliance?", "acceptedAnswer": {"@type": "Answer", "text": "To test Language of Page: use automated tools like AltorLab\'s scanner for initial detection, then manually verify with keyboard navigation and screen reader testing. Check the specific failure modes described in the WCAG documentation."}}, {"@type": "Question", "name": "How do I fix WCAG 3.1.1 violations?", "acceptedAnswer": {"@type": "Answer", "text": "Add lang=\'en\' (or appropriate language code) to the <html> element on every page."}}]}' }}
+        dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is WCAG 3.1.1 Language of Page?", "acceptedAnswer": {"@type": "Answer", "text": "The default language of each page must be identified in the code."}}, {"@type": "Question", "name": "How do I test for WCAG 3.1.1 compliance?", "acceptedAnswer": {"@type": "Answer", "text": "To test Language of Page: use automated tools like AltorLab\'s scanner for initial detection, then manually verify with keyboard navigation and screen reader testing. Check the specific failure modes described in the WCAG documentation."}}, {"@type": "Question", "name": "How do I fix WCAG 3.1.1 violations?", "acceptedAnswer": {"@type": "Answer", "text": "Add lang=\'en\' (or appropriate language code) to the &lt;html&gt; element on every page."}}]}' }}
       />
       <script
         type="application/ld+json"
@@ -61,7 +61,7 @@ export default function WcagPage() {
 
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-stone-900 mb-3">How to Fix</h2>
-          <p className="text-stone-600 leading-relaxed">Add lang='en' (or appropriate language code) to the <html> element on every page.</p>
+          <p className="text-stone-600 leading-relaxed">Add lang='en' (or appropriate language code) to the &lt;html&gt; element on every page.</p>
         </section>
 
         <section className="mb-8">
@@ -77,7 +77,7 @@ export default function WcagPage() {
             </div>
             <div className="p-4 border border-stone-200 rounded-lg">
               <h3 className="font-medium text-stone-900 mb-2">How do I fix WCAG 3.1.1 violations?</h3>
-              <p className="text-stone-600 text-sm">Add lang='en' (or appropriate language code) to the <html> element on every page.</p>
+              <p className="text-stone-600 text-sm">Add lang='en' (or appropriate language code) to the &lt;html&gt; element on every page.</p>
             </div>
           </div>
         </section>

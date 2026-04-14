@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "WCAG 2.4.2: Page Titled — Level A Compliance Guide | AltorLab Accessibility",
-  description: "Each page must have a descriptive <title> that identifies its purpose.",
+  description: "Each page must have a descriptive &lt;title&gt; that identifies its purpose.",
   alternates: { canonical: "https://altorlab.app/wcag/2-4-2-pagetitled" },
   openGraph: {
     title: "WCAG 2.4.2: Page Titled — ADA Compliance Guide",
-    description: "Each page must have a descriptive <title> that identifies its purpose.",
+    description: "Each page must have a descriptive &lt;title&gt; that identifies its purpose.",
     url: "https://altorlab.app/wcag/2-4-2-pagetitled",
   },
 };
@@ -16,11 +16,11 @@ export default function WcagPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is WCAG 2.4.2 Page Titled?", "acceptedAnswer": {"@type": "Answer", "text": "Each page must have a descriptive <title> that identifies its purpose."}}, {"@type": "Question", "name": "How do I test for WCAG 2.4.2 compliance?", "acceptedAnswer": {"@type": "Answer", "text": "To test Page Titled: use automated tools like AltorLab\'s scanner for initial detection, then manually verify with keyboard navigation and screen reader testing. Check the specific failure modes described in the WCAG documentation."}}, {"@type": "Question", "name": "How do I fix WCAG 2.4.2 violations?", "acceptedAnswer": {"@type": "Answer", "text": "Write unique, descriptive page titles: \'WCAG 1.4.3 Contrast | AltorLab Accessibility\'."}}]}' }}
+        dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is WCAG 2.4.2 Page Titled?", "acceptedAnswer": {"@type": "Answer", "text": "Each page must have a descriptive &lt;title&gt; that identifies its purpose."}}, {"@type": "Question", "name": "How do I test for WCAG 2.4.2 compliance?", "acceptedAnswer": {"@type": "Answer", "text": "To test Page Titled: use automated tools like AltorLab\'s scanner for initial detection, then manually verify with keyboard navigation and screen reader testing. Check the specific failure modes described in the WCAG documentation."}}, {"@type": "Question", "name": "How do I fix WCAG 2.4.2 violations?", "acceptedAnswer": {"@type": "Answer", "text": "Write unique, descriptive page titles: \'WCAG 1.4.3 Contrast | AltorLab Accessibility\'."}}]}' }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "TechArticle", "headline": "WCAG 2.4.2: Page Titled \\u2014 Level A Compliance Guide", "description": "Each page must have a descriptive <title> that identifies its purpose. Without descriptive titles, screen reader users cannot distinguish between browser tabs or pages.", "url": "https://altorlab.app/wcag/2-4-2-pagetitled", "author": {"@type": "Person", "name": "AltorLab Accessibility Team"}, "datePublished": "2026-04-14", "dateModified": "2026-04-14"}' }}
+        dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@type": "TechArticle", "headline": "WCAG 2.4.2: Page Titled \\u2014 Level A Compliance Guide", "description": "Each page must have a descriptive &lt;title&gt; that identifies its purpose. Without descriptive titles, screen reader users cannot distinguish between browser tabs or pages.", "url": "https://altorlab.app/wcag/2-4-2-pagetitled", "author": {"@type": "Person", "name": "AltorLab Accessibility Team"}, "datePublished": "2026-04-14", "dateModified": "2026-04-14"}' }}
       />
       <script
         type="application/ld+json"
@@ -42,7 +42,7 @@ export default function WcagPage() {
 
         <section className="mb-8 p-5 bg-blue-50 rounded-xl border border-blue-100">
           <h2 className="text-lg font-semibold text-stone-900 mb-2">Quick Answer</h2>
-          <p className="text-stone-700 leading-relaxed">Each page must have a descriptive <title> that identifies its purpose.</p>
+          <p className="text-stone-700 leading-relaxed">Each page must have a descriptive &lt;title&gt; that identifies its purpose.</p>
         </section>
 
         <section className="mb-8">
@@ -69,7 +69,7 @@ export default function WcagPage() {
           <div className="space-y-4">
             <div className="p-4 border border-stone-200 rounded-lg">
               <h3 className="font-medium text-stone-900 mb-2">What is WCAG 2.4.2 Page Titled?</h3>
-              <p className="text-stone-600 text-sm">Each page must have a descriptive <title> that identifies its purpose.</p>
+              <p className="text-stone-600 text-sm">Each page must have a descriptive &lt;title&gt; that identifies its purpose.</p>
             </div>
             <div className="p-4 border border-stone-200 rounded-lg">
               <h3 className="font-medium text-stone-900 mb-2">Is WCAG 2.4.2 required for ADA compliance?</h3>
