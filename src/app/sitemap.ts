@@ -88,6 +88,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const wcagPages = [
+    "1-1-1-non-textcontent","1-2-1-audio-onlyandvideo-onlyprereco","1-2-2-captionsprerecorded",
+    "1-2-3-audiodescriptionormediaalterna","1-3-1-infoandrelationships","1-3-2-meaningfulsequence",
+    "1-3-3-sensorycharacteristics","1-4-1-useofcolor","1-4-2-audiocontrol","2-1-1-keyboard",
+    "2-1-2-nokeyboardtrap","2-2-1-timingadjustable","2-2-2-pausestophide","2-3-1-threeflashesorbelow",
+    "2-4-1-bypassblocks","2-4-2-pagetitled","2-4-3-focusorder","2-4-4-linkpurposeincontext",
+    "2-5-3-labelinname","2-5-4-motionactuation","3-1-1-languageofpage","3-2-1-onfocus",
+    "3-2-2-oninput","3-3-1-erroridentification","3-3-2-labelsorinstructions","4-1-1-parsing",
+    "4-1-2-namerolevalue","1-2-4-captionslive","1-2-5-audiodescriptionprerecorded",
+    "1-3-4-orientation","1-3-5-identifyinputpurpose","1-4-3-contrastminimum","1-4-4-resizetext",
+    "1-4-5-imagesoftext","1-4-10-reflow","1-4-11-non-textcontrast","1-4-12-textspacing",
+    "1-4-13-contentonhoverorfocus","2-4-5-multipleways","2-4-6-headingsandlabels",
+    "2-4-7-focusvisible","2-5-1-pointergestures","2-5-2-pointercancellation",
+    "3-1-2-languageofparts","3-2-3-consistentnavigation","3-2-4-consistentidentification",
+    "3-3-3-errorsuggestion","3-3-4-errorpreventionlegalfinanciald","4-1-3-statusmessages",
+  ].map((slug) => ({
+    url: `https://app.altorlab.org/wcag/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  const useCasePages = [
+    "real-estate-staging",
+  ].map((slug) => ({
+    url: `https://app.altorlab.org/use-cases/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
   return [
     ...STATIC_PAGES.map((page) => ({
       url: page.url,
@@ -95,6 +126,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: page.priority,
     })),
+    ...wcagPages,
+    ...useCasePages,
     ...ideaPages,
     ...designPages,
     ...ideasPages,

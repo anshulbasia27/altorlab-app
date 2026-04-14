@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import type { Metadata } from "next";
-import { websiteJsonLd, appJsonLd, organizationJsonLd } from "@/lib/seo";
+import { websiteJsonLd, appJsonLd, organizationJsonLd, authorJsonLd } from "@/lib/seo";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
@@ -69,6 +69,11 @@ export default function RootLayout({
           type="application/ld+json"
         >
           {JSON.stringify(appJsonLd)}
+        </script>
+        <script
+          type="application/ld+json"
+        >
+          {JSON.stringify(authorJsonLd)}
         </script>
         {/* GA4 */}
         {process.env.NEXT_PUBLIC_GA_ID && (

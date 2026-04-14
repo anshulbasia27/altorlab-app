@@ -42,6 +42,16 @@ export const organizationJsonLd = {
   knowsLanguage: ["en-US"],
 };
 
+export const authorJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "AltorLab AI Design Team",
+  jobTitle: "AI Interior Design Specialist",
+  description: "Expert team specializing in AI-generated interior design, room redesign, and visual transformation tools for US homeowners and real estate professionals.",
+  url: "https://app.altorlab.org",
+  worksFor: { "@type": "Organization", name: "AltorLab", url: "https://app.altorlab.org" },
+};
+
 /**
  * SoftwareApplication JSON-LD schema for AI Room Redesign
  */
