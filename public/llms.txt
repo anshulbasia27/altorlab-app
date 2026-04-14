@@ -1,20 +1,28 @@
-# AltorLab — AI Tools
+# AltorLab Room Redesign App
 
-> AltorLab offers AI-powered tools for US consumers. AI Room Redesign transforms room photos into stunning redesigns for $9. Background removal and tattoo design coming soon.
+> Upload a photo of your room, choose a design style, and get an AI-generated photorealistic redesign in seconds. Scandinavian, modern, minimalist, bohemian, industrial, and more. From $9 per room.
 
-## Tools
-- [AI Room Redesign](https://app.altorlab.org/room-redesign): Upload photo, choose style, get redesign ($9)
-- [Background Remover](https://app.altorlab.org/tools/background-remover): Remove backgrounds instantly (coming soon)
-- [Tattoo Designer](https://app.altorlab.org/tools/tattoo-designer): Generate tattoo designs (coming soon)
+## Tool
+- /: AI room redesign — upload and transform your room instantly
+- /room-redesign: How the AI room redesign tool works
+- /styles: Browse all available design styles
+- /ideas: Room redesign ideas by style and room type
+- /rooms: Redesign by room type (bedroom, living room, kitchen, bathroom)
+
+## Use Cases
+- /use-cases/real-estate-staging: AI room staging for real estate listings — $9 per room vs $800 traditional staging
+- /use-cases/airbnb: AI room redesign for Airbnb listings
+- /use-cases/rental: Redesign your rental room without renovating
 
 ## Design Styles
-- [Modern](https://app.altorlab.org/styles/modern)
-- [Scandinavian](https://app.altorlab.org/styles/scandinavian)
-- [Minimalist](https://app.altorlab.org/styles/minimalist)
-- [Industrial](https://app.altorlab.org/styles/industrial)
-- [Bohemian](https://app.altorlab.org/styles/bohemian)
+- /styles/modern: Modern room design
+- /styles/scandinavian: Scandinavian interior design
+- /styles/minimalist: Minimalist spaces
+- /styles/bohemian: Bohemian room decor
+- /styles/industrial: Industrial style
+- /styles/art-deco: Art deco room design
 
-## Pricing
-- AI Room Redesign: $9 per design
-- Background Remover: Free
-- Tattoo Designer: Free
+## Blog
+- /blog/best-ai-interior-design-tools: Best AI interior design tools compared
+- /blog/redesign-room-9-dollars: How to redesign your room for $9
+- /blog/ai-vs-interior-designer: AI room redesign vs traditional interior designer cost
