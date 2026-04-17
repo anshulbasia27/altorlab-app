@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Use AI to Redesign Your Kitchen in Minutes (No Reno)",
-  description: "Transform your kitchen with AI tools—no contractors needed. Upload a photo, try new layouts, colors & styles instantly before spending a dime.",
+  description: "Transform your kitchen with AI tools - no contractors needed. Upload a photo, try new layouts, colors & styles instantly before spending a dime.",
   alternates: { canonical: "https://kundlimilan.co.in/blog/ai-kitchen-redesign-no-renovation" },
   openGraph: {
     title: "Use AI to Redesign Your Kitchen in Minutes (No Reno)",
-    description: "Transform your kitchen with AI tools—no contractors needed. Upload a photo, try new layouts, colors & styles instantly before spending a dime.",
+    description: "Transform your kitchen with AI tools - no contractors needed. Upload a photo, try new layouts, colors & styles instantly before spending a dime.",
     url: "https://kundlimilan.co.in/blog/ai-kitchen-redesign-no-renovation",
     type: "article",
   },
@@ -26,7 +26,7 @@ export default function Page() {
         <article className="prose prose-invert prose-amber max-w-none">
           <div dangerouslySetInnerHTML={{ __html: `<h1>How to Use AI to Redesign Your Kitchen Without Renovating</h1>
 
-<p>A full kitchen remodel in the US averages $27,000. Paint your cabinets white and swap the hardware? That's still $1,200 in materials plus a lost weekend. But what if you could see your kitchen with navy blue lowers, brass pulls, and open shelving — before you spend a dime or lift a brush?</p>
+<p>A full kitchen remodel in the US averages $27,000. Paint your cabinets white and swap the hardware? That's still $1,200 in materials plus a lost weekend. But what if you could see your kitchen with navy blue lowers, brass pulls, and open shelving - before you spend a dime or lift a brush?</p>
 
 <p>AI room redesign tools now let you test layouts, finishes, and styles in minutes using just a photo from your phone. No contractor quotes. No commitment. No risk of hating the subway tile you just spent $800 installing.</p>
 
@@ -54,7 +54,7 @@ export default function Page() {
 
 <p>Take a straight-on photo in good natural light. Stand far enough back to capture the full run of cabinets and counters. Avoid extreme angles or shadows that confuse the AI.</p>
 
-<p>Upload to a tool like Altorlab or Fotor. Most platforms let you pick a design style first — Scandinavian, industrial, farmhouse, midcentury — then refine details like cabinet color, countertop material, and hardware finish.</p>
+<p>Upload to a tool like Altorlab or Fotor. Most platforms let you pick a design style first - Scandinavian, industrial, farmhouse, midcentury - then refine details like cabinet color, countertop material, and hardware finish.</p>
 
 <p>Generate 3-4 variations. Don't stop at the first render. Try a version that's close to what you were planning, then try something bolder. AI makes it free to test ideas you'd never commit to in real life.</p>
 
@@ -82,11 +82,11 @@ export default function Page() {
 
 <h2>When to skip AI and call a professional</h2>
 
-<p>If your kitchen needs new plumbing, electrical upgrades, or structural changes — adding a window, removing a wall, relocating the sink — AI redesign is just the inspiration phase. You'll need an architect or licensed contractor to create plans that meet code and calculate load-bearing requirements.</p>
+<p>If your kitchen needs new plumbing, electrical upgrades, or structural changes - adding a window, removing a wall, relocating the sink - AI redesign is just the inspiration phase. You'll need an architect or licensed contractor to create plans that meet code and calculate load-bearing requirements.</p>
 
 <p>If you're uncertain about measurements, workflow, or appliance placement, a kitchen designer earns their fee by preventing expensive mistakes. AI won't tell you that your new island blocks the dishwasher door or that your cooktop is too close to a window.</p>
 
-<p>But if you're repainting cabinets, replacing hardware, updating a backsplash, or swapping countertops — projects you can tackle yourself or hire a handyman for — AI gives you the confidence to choose finishes you'll actually like.</p>
+<p>But if you're repainting cabinets, replacing hardware, updating a backsplash, or swapping countertops - projects you can tackle yourself or hire a handyman for - AI gives you the confidence to choose finishes you'll actually like.</p>
 
 <section aria-label="FAQ">
 <h2>Frequently Asked Questions</h2>
@@ -98,16 +98,16 @@ export default function Page() {
 <p>No. AI redesign platforms are built for regular homeowners, not professionals. You upload a photo, pick a style or finish, and let the software generate options. The interface is closer to an Instagram filter than CAD software. Most people get usable results within 10 minutes of starting.</p>
 
 <h3>Will the AI render look exactly like the finished kitchen?</h3>
-<p>No, but it's close enough to make decisions. Expect 80-90% accuracy on color and material, less on lighting and texture. The goal isn't a photorealistic preview — it's eliminating bad ideas before you commit money and time. Think of it as a dress rehearsal, not a guarantee.</p>
+<p>No, but it's close enough to make decisions. Expect 80-90% accuracy on color and material, less on lighting and texture. The goal isn't a photorealistic preview - it's eliminating bad ideas before you commit money and time. Think of it as a dress rehearsal, not a guarantee.</p>
 
 <h3>Can I use AI renders to show a contractor what I want?</h3>
 <p>Yes, and contractors generally appreciate it. A visual reference is clearer than verbal descriptions. Just be explicit that it's an AI mockup, not a professional design. Your contractor may spot issues the AI missed, like incorrect dimensions or impractical material choices.</p>
 
 <h3>How much does it cost to actually do the changes I design in AI?</h3>
-<p>That depends entirely on what you're changing. Repainting cabinets yourself runs $200-$600 in materials. Hiring it out costs $1,200-$7,000 depending on kitchen size. New countertops range from $1,500 for laminate to $8,000+ for stone. Backsplash tile and installation typically falls between $800 and $2,500. AI helps you prioritize where to spend, but the tool itself doesn't reduce renovation costs — just the odds of choosing something you'll regret.</p>
+<p>That depends entirely on what you're changing. Repainting cabinets yourself runs $200-$600 in materials. Hiring it out costs $1,200-$7,000 depending on kitchen size. New countertops range from $1,500 for laminate to $8,000+ for stone. Backsplash tile and installation typically falls between $800 and $2,500. AI helps you prioritize where to spend, but the tool itself doesn't reduce renovation costs - just the odds of choosing something you'll regret.</p>
 </section>
 
-<p>Try it — starting at $9 at <a href="https://app.altorlab.org">https://app.altorlab.org</a></p>` }} />
+<p>Try it - starting at $9 at <a href="https://app.altorlab.org">https://app.altorlab.org</a></p>` }} />
         </article>
         <footer className="mt-12 pt-4 border-t border-gray-800 text-gray-500 text-sm">
           Published April 17, 2026

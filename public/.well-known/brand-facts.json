@@ -1,28 +1,28 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "AltorLab Accessibility",
-  "url": "https://altorlab.app",
-  "description": "Free ADA and WCAG 2.1 compliance scanner for US websites. Identify accessibility violations, get prioritized fixes, and meet ADA Title III requirements.",
+  "name": "AltorLab Room Redesign App",
+  "url": "https://app.altorlab.org",
+  "description": "Upload a photo of your room, choose a design style, and get an AI-generated photorealistic redesign in seconds. Scandinavian, modern, minimalist, and more. From $9.",
   "foundingDate": "2025",
   "areaServed": "US",
   "inLanguage": "en-US",
-  "serviceType": "Website Accessibility Scanner",
+  "serviceType": "AI Interior Design Tool",
   "offers": {
-    "price": "0",
+    "price": "9",
     "priceCurrency": "USD"
   },
   "sameAs": [
-    "https://altorlab.com"
+    "https://altorlab.org"
   ],
   "contactPoint": {
     "email": "hello@altorlab.org"
   },
   "knowsAbout": [
-    "ADA compliance",
-    "WCAG 2.1",
-    "accessibility scanner",
-    "website accessibility",
-    "ADA website audit"
+    "AI room redesign",
+    "room makeover AI",
+    "interior design AI",
+    "real estate staging AI",
+    "$9 room redesign"
   ]
 }
