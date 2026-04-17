@@ -26,7 +26,7 @@ export default function Page() {
         <article className="prose prose-invert prose-amber max-w-none">
           <div dangerouslySetInnerHTML={{ __html: `<h1>Rustic Cabin Interior Design AI Makeover: Why Designers Now Use Software Before Shopping</h1>
 
-<p>A 2023 survey of 1,200 interior designers found that 41% now run AI renders before recommending furniture purchases to clients—up from 9% in 2021. For rustic cabin interiors, where reclaimed wood costs $12-18 per board foot and a single mistake means hauling heavy timber back to the supplier, that shift makes financial sense.</p>
+<p>A 2023 survey of 1,200 interior designers found that 41% now run AI renders before recommending furniture purchases to clients - up from 9% in 2021. For rustic cabin interiors, where reclaimed wood costs $12-18 per board foot and a single mistake means hauling heavy timber back to the supplier, that shift makes financial sense.</p>
 
 <p>Here's the thesis: AI makeover tools have become the fastest, cheapest way to test whether your vision for a rustic cabin interior actually works before you spend four figures on barnwood paneling that clashes with your existing stone fireplace.</p>
 
@@ -38,11 +38,11 @@ export default function Page() {
 
 <p>A single reclaimed barn beam runs $300-900 depending on length. Wide-plank pine flooring costs $8-14 per square foot installed. If you commit to a wall of shiplap in the wrong tone, you're either living with it or ripping out $2,000 worth of lumber.</p>
 
-<p>The old workaround was mood boards—Pinterest collages, paint swatches taped to walls, maybe a $120/hour consultation with a designer who sketches ideas on graph paper. The new workaround is uploading a photo of your actual room to an AI tool and rendering five versions in different wood tones, furniture layouts, and lighting setups in under three minutes.</p>
+<p>The old workaround was mood boards - Pinterest collages, paint swatches taped to walls, maybe a $120/hour consultation with a designer who sketches ideas on graph paper. The new workaround is uploading a photo of your actual room to an AI tool and rendering five versions in different wood tones, furniture layouts, and lighting setups in under three minutes.</p>
 
 <h2>What a Rustic Cabin AI Makeover Actually Does</h2>
 
-<p>You photograph your space. The AI identifies walls, windows, existing furniture. You select "rustic cabin" or input reference images—maybe a lodge in Montana, a contemporary cabin from Dwell, a vintage Airstream interior with pine accents.</p>
+<p>You photograph your space. The AI identifies walls, windows, existing furniture. You select "rustic cabin" or input reference images - maybe a lodge in Montana, a contemporary cabin from Dwell, a vintage Airstream interior with pine accents.</p>
 
 <p>The software generates photorealistic renders showing your room with:<ul>
 <li>Different wood finishes (weathered gray, honey pine, dark walnut)</li>
@@ -71,13 +71,13 @@ export default function Page() {
 
 <p>Second render: shiplap on one accent wall only, existing drywall painted warm white, three floating shelves made from reclaimed wood, jute rug, linen curtains, ceramic table lamps instead of antler chandelier. Estimated cost: $2,800.</p>
 
-<p>The second version—generated in revision after she adjusted the prompt—kept the rustic feel but dropped cost by 75%. She built it in six weeks. That's the actual value: seeing cheaper versions of your idea before you price yourself out.</p>
+<p>The second version - generated in revision after she adjusted the prompt - kept the rustic feel but dropped cost by 75%. She built it in six weeks. That's the actual value: seeing cheaper versions of your idea before you price yourself out.</p>
 
 <h2>What AI Tools Get Wrong</h2>
 
 <p>Texture fidelity is inconsistent. A reclaimed beam with real saw marks, checking, and patina will always look richer than an AI render. The software approximates; it doesn't capture the exact grain of your specific salvaged lumber.</p>
 
-<p>AI sometimes invents impossible architecture—floating shelves with no visible brackets, stone fireplaces that wouldn't pass code, windows where your actual wall is solid. You're the editor. The tool gives you a vision; you adapt it to reality.</p>
+<p>AI sometimes invents impossible architecture - floating shelves with no visible brackets, stone fireplaces that wouldn't pass code, windows where your actual wall is solid. You're the editor. The tool gives you a vision; you adapt it to reality.</p>
 
 <p>And AI renders can make bad ideas look good. A room crammed with too much wood, clashing metals, and competing textures might still render beautifully because the software balances light and color. You need taste, not just technology. The AI won't tell you when less is more.</p>
 
@@ -85,7 +85,7 @@ export default function Page() {
 
 <p>Start with your worst room. The one with the most obvious problems. Take three photos from different angles in natural light.</p>
 
-<p>Run your first render with an ambitious vision—the Pinterest board version. See what it costs to build. If that number works, stop here and go shopping.</p>
+<p>Run your first render with an ambitious vision - the Pinterest board version. See what it costs to build. If that number works, stop here and go shopping.</p>
 
 <p>If it doesn't, run three more renders where you subtract expensive elements one at a time. Full wall paneling becomes an accent wall. Custom built-ins become open shelving. The $1,800 cowhide rug becomes a $240 jute rug.</p>
 

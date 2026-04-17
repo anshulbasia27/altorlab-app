@@ -52,7 +52,7 @@ export default function ADADemandLetterPage() {
             An ADA demand letter is a notice from an attorney claiming your website violates the Americans with
             Disabilities Act (ADA) by failing to meet Web Content Accessibility Guidelines (WCAG) standards.
             The letter typically identifies specific violations, names the plaintiff (often a person with a disability
-            who encountered barriers on your site), and demands remediation — sometimes with a settlement amount.
+            who encountered barriers on your site), and demands remediation - sometimes with a settlement amount.
           </p>
           <p className="text-stone-600 leading-relaxed">
             ADA website lawsuits increased dramatically in recent years. In 2023, over 4,600 ADA website lawsuits
@@ -64,7 +64,7 @@ export default function ADADemandLetterPage() {
           <h2 className="text-xl font-semibold text-stone-900 mb-3">Do Not Ignore It</h2>
           <p className="text-stone-600 leading-relaxed">
             Ignoring an ADA demand letter almost always results in a filed lawsuit. Once a lawsuit is filed,
-            your legal costs increase dramatically — typically $50,000-$150,000+ versus $5,000-$20,000 for
+            your legal costs increase dramatically - typically $50,000-$150,000+ versus $5,000-$20,000 for
             early settlement. The letter is a negotiating opportunity. Use it.
           </p>
         </section>
@@ -110,7 +110,7 @@ export default function ADADemandLetterPage() {
           <ul className="list-disc pl-6 text-stone-600 space-y-1">
             <li>Specific violations identified in the audit</li>
             <li>Priority order for fixes (high-impact first)</li>
-            <li>Timeline for remediation (be realistic — 30-90 days is common)</li>
+            <li>Timeline for remediation (be realistic - 30-90 days is common)</li>
             <li>Assigned responsibility for each fix</li>
             <li>Testing plan to verify fixes</li>
           </ul>
@@ -148,7 +148,7 @@ export default function ADADemandLetterPage() {
           <h2 className="text-xl font-semibold text-stone-900 mb-3">Step 5: Respond to the Demand Letter (Days 14-21)</h2>
           <p className="text-stone-600 leading-relaxed">
             Through your attorney, respond with your remediation plan and evidence of good-faith efforts.
-            Most plaintiffs&apos; attorneys prefer settlement to litigation — demonstrating active remediation
+            Most plaintiffs&apos; attorneys prefer settlement to litigation - demonstrating active remediation
             significantly improves your negotiating position. Settlement amounts typically range from
             $5,000-$20,000 at the demand letter stage versus $50,000+ after a lawsuit is filed.
           </p>

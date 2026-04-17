@@ -95,7 +95,7 @@ export default function Page() {
 <p>Amazon requires at least one background-free image and allows up to 9 total. Etsy allows 10 images per listing. Most successful sellers use 5-7 photos: one clean product shot, 2-3 detail angles, 1-2 lifestyle or scale images, and 1 packaging photo. Only your main image needs the white background.</p>
 </section>
 
-<p>Stop letting messy backgrounds cost you sales. Try our AI background remover and room redesign tools — starting at $9 at <a href="https://app.altorlab.org">app.altorlab.org</a>.</p>` }} />
+<p>Stop letting messy backgrounds cost you sales. Try our AI background remover and room redesign tools - starting at $9 at <a href="https://app.altorlab.org">app.altorlab.org</a>.</p>` }} />
         </article>
         <footer className="mt-12 pt-4 border-t border-gray-800 text-gray-500 text-sm">
           Published April 03, 2026

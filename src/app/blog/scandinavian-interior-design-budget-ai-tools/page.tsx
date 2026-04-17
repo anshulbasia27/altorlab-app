@@ -28,7 +28,7 @@ export default function Page() {
 
 <p>Here's what most "affordable Scandinavian design" guides won't tell you: the style stopped being cheap the moment Hygge became a hashtag. A single CB2 oak bench costs $349. West Elm's "minimalist" linen curtains? $129 per panel. And that iconic Muuto Dots coat rack everyone pins? $185 for five wooden pegs.</p>
 
-<p>The real trick isn't hunting for Ikea dupes. It's understanding that Scandinavian design's core appeal—clean lines, natural light, functional simplicity—costs almost nothing to execute if you stop trying to replicate a Copenhagen showroom and start designing for your actual apartment.</p>
+<p>The real trick isn't hunting for Ikea dupes. It's understanding that Scandinavian design's core appeal - clean lines, natural light, functional simplicity - costs almost nothing to execute if you stop trying to replicate a Copenhagen showroom and start designing for your actual apartment.</p>
 
 <p>The best part? You can test every idea digitally before spending a dollar on paint or furniture. AI room design tools now render Scandinavian aesthetics in seconds, letting you preview that soft gray wall or repositioned sofa without the commitment. It's like Photoshop for your living room, except it costs less than two lattes.</p>
 
@@ -46,11 +46,11 @@ export default function Page() {
 
 <p>Forget the piecemeal approach. If you have $500 and want a room that reads unmistakably Scandi, allocate like this:</p>
 
-<p><strong>$120 on paint.</strong> Benjamin Moore's Swiss Coffee or Behr's Silver Drop in matte finish. Two gallons covers a 12x14 room with one accent wall. Scandinavian design is not all-white—it's light gray, warm white, or soft greige. Pure white feels clinical unless you live in a SoHo loft.</p>
+<p><strong>$120 on paint.</strong> Benjamin Moore's Swiss Coffee or Behr's Silver Drop in matte finish. Two gallons covers a 12x14 room with one accent wall. Scandinavian design is not all-white - it's light gray, warm white, or soft greige. Pure white feels clinical unless you live in a SoHo loft.</p>
 
 <p><strong>$180 on one statement piece.</strong> Not a sofa. Not a bed frame. Go for a solid wood coffee table or a sculptural floor lamp. Article's Madera coffee table runs $199 and anchors an entire living room. Target's Threshold line has oak side tables for $89. One real-wood piece does more atmospheric work than five particleboard items.</p>
 
-<p><strong>$100 on textiles.</strong> A chunky knit throw, linen pillow covers, and a wool or jute area rug from Rugs USA or Ruggable. Scandinavian rooms feel cozy despite their minimalism because they layer textures, not colors. Cream linen, oatmeal wool, raw jute—all under $40 per item during sales.</p>
+<p><strong>$100 on textiles.</strong> A chunky knit throw, linen pillow covers, and a wool or jute area rug from Rugs USA or Ruggable. Scandinavian rooms feel cozy despite their minimalism because they layer textures, not colors. Cream linen, oatmeal wool, raw jute - all under $40 per item during sales.</p>
 
 <p><strong>$50 on green things.</strong> Four large plants beat ten small succulents. Fiddle leaf figs and rubber plants are overused; go for a monstera ($25 at Home Depot), a snake plant ($18), or a potted olive tree if you have strong light. Scandinavian design loves organic shapes interrupting the clean lines.</p>
 
@@ -66,13 +66,13 @@ export default function Page() {
 
 <p>AI room redesign software has gotten absurdly good at rendering realistic interiors. You can test that charcoal accent wall without the painter's tape. You can see if moving your sofa three feet left improves the flow. You can visualize a jute rug against your existing hardwood before ordering from Rugs USA.</p>
 
-<p>These tools used to be clunky—think 2015-era filters that made your living room look like a Sims screenshot. Now they use the same diffusion models behind Midjourney and DALL-E, trained specifically on interior photography. The lighting looks right. The shadows fall correctly. If you told me an AI rendering was a staged photo, I'd believe you.</p>
+<p>These tools used to be clunky - think 2015-era filters that made your living room look like a Sims screenshot. Now they use the same diffusion models behind Midjourney and DALL-E, trained specifically on interior photography. The lighting looks right. The shadows fall correctly. If you told me an AI rendering was a staged photo, I'd believe you.</p>
 
 <p>Cost? Usually $9 to $29 per month, cheaper than a single design consultation and infinitely cheaper than repainting twice because you guessed wrong.</p>
 
 <h2>Where Scandinavian Design Actually Saves You Money</h2>
 
-<p>Minimalism isn't just an aesthetic—it's an economic strategy. Once you commit to the "less but better" philosophy, you stop buying the decorative junk that clutters American homes.</p>
+<p>Minimalism isn't just an aesthetic - it's an economic strategy. Once you commit to the "less but better" philosophy, you stop buying the decorative junk that clutters American homes.</p>
 
 <p>Scandinavian rooms don't have: throw pillows in four patterns, gallery walls with 20 frames, open shelving crammed with tchotchkes, accent furniture with no function, or anything described as "shabby chic." They have a sofa, a table, a lamp, a plant, and maybe one piece of art.</p>
 
@@ -84,7 +84,7 @@ export default function Page() {
 
 <p>If you only fix five things, fix these. They're the difference between "I painted my walls gray" and "This is a Scandinavian room."</p>
 
-<p><strong>Light, not lighting.</strong> Maximize natural light first—sheer curtains, mirrors opposite windows, no heavy drapes. Then add warm-toned bulbs (2700K, not the 5000K office lighting). One arched floor lamp ($89 at Target's Threshold line) does more than six overhead fixtures.</p>
+<p><strong>Light, not lighting.</strong> Maximize natural light first - sheer curtains, mirrors opposite windows, no heavy drapes. Then add warm-toned bulbs (2700K, not the 5000K office lighting). One arched floor lamp ($89 at Target's Threshold line) does more than six overhead fixtures.</p>
 
 <p><strong>Wood tone consistency.</strong> Pick one: light oak, walnut, or birch. Don't mix. Scandinavian rooms feel cohesive because the coffee table, shelving, and picture frames are all the same wood species.</p>
 
@@ -100,7 +100,7 @@ export default function Page() {
 
 <p>First, they confuse minimalism with emptiness. A Scandinavian living room has fewer items, but each one is textured, warm, and purposeful. American minimalism often just looks like you haven't finished moving in.</p>
 
-<p>Second, they skip the hygge. Scandinavian design emerged in cold, dark climates—it's meant to feel cozy. If your space looks like an Apple Store, you've overdone the clean lines and underdone the wool throws and warm lighting.</p>
+<p>Second, they skip the hygge. Scandinavian design emerged in cold, dark climates - it's meant to feel cozy. If your space looks like an Apple Store, you've overdone the clean lines and underdone the wool throws and warm lighting.</p>
 
 <p>Third, they paint everything white and wonder why it feels flat. Scandinavian rooms use white as a canvas, then layer in warm grays, soft taupes, blacks, natural wood, and greenery. Monochrome is not the goal.</p>
 
@@ -112,28 +112,28 @@ export default function Page() {
 
 <p>AI tools solve the visualization problem. You upload a photo, select a Scandinavian preset, and see what works before you drill, paint, or buy. You can test five furniture arrangements in five minutes. You can compare Light Gray versus Greige in your actual lighting. You can see if that $400 oak bench is worth it or if your existing coffee table works fine with different styling.</p>
 
-<p>It's the design equivalent of autocorrect—it doesn't do the creative work, but it catches mistakes before they cost you money.</p>
+<p>It's the design equivalent of autocorrect - it doesn't do the creative work, but it catches mistakes before they cost you money.</p>
 
 <section aria-label="FAQ">
 <h2>Frequently Asked Questions</h2>
 
 <h3>Can you do Scandinavian design in a rental?</h3>
-<p>Easily. Scandinavian style doesn't require structural changes—it's about paint (if allowed), furniture arrangement, textiles, and lighting. Removable peel-and-stick wallpaper in soft gray works if you can't paint. Focus on swappable elements: throw pillows, rugs, art, and plants.</p>
+<p>Easily. Scandinavian style doesn't require structural changes - it's about paint (if allowed), furniture arrangement, textiles, and lighting. Removable peel-and-stick wallpaper in soft gray works if you can't paint. Focus on swappable elements: throw pillows, rugs, art, and plants.</p>
 
 <h3>What's the difference between Scandinavian and minimalist design?</h3>
-<p>Minimalism is about reduction—fewer objects, stark spaces, often monochrome. Scandinavian design is functional minimalism plus warmth: natural materials, texture, soft neutrals, and coziness. It's minimal in quantity but rich in tactile quality.</p>
+<p>Minimalism is about reduction - fewer objects, stark spaces, often monochrome. Scandinavian design is functional minimalism plus warmth: natural materials, texture, soft neutrals, and coziness. It's minimal in quantity but rich in tactile quality.</p>
 
 <h3>Do I need expensive furniture to pull off Scandinavian design?</h3>
 <p>No. Scandinavian design originated as democratic and affordable. Ikea is a Swedish company. What matters is material honesty (real wood beats fake wood, linen beats polyester) and proportion. A $99 solid pine stool from Ikea looks more Scandinavian than a $300 faux-distressed composite piece from a trend-chasing brand.</p>
 
 <h3>How do I keep Scandinavian design from feeling cold?</h3>
-<p>Layer textures and warm tones. Add wool throws, linen curtains, jute rugs, and wood furniture. Use warm-white bulbs (2700K), not daylight LEDs. Include greenery. The mistake is going all white and gray with no organic softness—that's when it feels sterile.</p>
+<p>Layer textures and warm tones. Add wool throws, linen curtains, jute rugs, and wood furniture. Use warm-white bulbs (2700K), not daylight LEDs. Include greenery. The mistake is going all white and gray with no organic softness - that's when it feels sterile.</p>
 
 <h3>Can AI design tools really replace a professional designer?</h3>
-<p>Not for complex renovations or spatial planning. But for styling, color selection, and furniture arrangement? They're shockingly effective. You're not getting custom cabinetry drawings, but you are getting fast, accurate visualizations of how your existing space would look with different aesthetics—and that's enough for most budget projects.</p>
+<p>Not for complex renovations or spatial planning. But for styling, color selection, and furniture arrangement? They're shockingly effective. You're not getting custom cabinetry drawings, but you are getting fast, accurate visualizations of how your existing space would look with different aesthetics - and that's enough for most budget projects.</p>
 </section>
 
-<p>Try it — starting at $9 at <a href="https://app.altorlab.org">https://app.altorlab.org</a></p>` }} />
+<p>Try it - starting at $9 at <a href="https://app.altorlab.org">https://app.altorlab.org</a></p>` }} />
         </article>
         <footer className="mt-12 pt-4 border-t border-gray-800 text-gray-500 text-sm">
           Published April 02, 2026

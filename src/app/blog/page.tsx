@@ -3,7 +3,7 @@ import Link from "next/link";
 import { BLOG_ARTICLES } from "./_lib/articles";
 
 export const metadata: Metadata = {
-  title: { absolute: "AltorLab Blog — AI Design Guides and SEO Articles" },
+  title: { absolute: "AltorLab Blog - AI Design Guides and SEO Articles" },
   description:
     "Read AltorLab guides on AI interior design, room redesign costs, tattoo concepts, and background remover workflows.",
   alternates: {

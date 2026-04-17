@@ -32,7 +32,7 @@ export default function Page() {
 
 <h2>Why Art Deco Works in Small NYC Spaces</h2>
 
-<p>Art deco gets dismissed as maximalist, but the style was born in tight Parisian apartments and compact Manhattan penthouses in the 1920s. It's theatrical without requiring square footage. A single geometric mirror, a brass floor lamp, jewel-toned throw pillows—these register as intentional design in a way that midcentury modern's endless neutrals do not.</p>
+<p>Art deco gets dismissed as maximalist, but the style was born in tight Parisian apartments and compact Manhattan penthouses in the 1920s. It's theatrical without requiring square footage. A single geometric mirror, a brass floor lamp, jewel-toned throw pillows - these register as intentional design in a way that midcentury modern's endless neutrals do not.</p>
 
 <p>The problem is visualization. You can look at a Pinterest board of the Chrysler Building lobby all day and still have no idea if emerald green velvet will work next to your landlord's oak laminate floor. AI room redesign tools solve this by letting you test the aesthetic on your actual room, with your actual light, your actual proportions.</p>
 
@@ -42,7 +42,7 @@ export default function Page() {
 
 <p>AI room tools are surprisingly fluent in the visual grammar of the style. They understand that art deco means geometric patterns, stepped forms, high contrast, metallic accents, rich fabrics, and symmetry. When you feed a photo of a basic bedroom into a tool like Reimagine Home, Spacely AI, or AltorLab, the output typically includes:</p>
 
-<p>Mirrored or lacquered furniture with clean lines. Wallpaper or paint in deep jewel tones—navy, emerald, burgundy. Brass or chrome lighting fixtures. Geometric rugs in black, white, and gold. Velvet or silk upholstery.</p>
+<p>Mirrored or lacquered furniture with clean lines. Wallpaper or paint in deep jewel tones - navy, emerald, burgundy. Brass or chrome lighting fixtures. Geometric rugs in black, white, and gold. Velvet or silk upholstery.</p>
 
 <p>The AI doesn't always nail the details. Sometimes it invents a chandelier that would cost $3,000 or suggests a built-in bar cart where your closet actually is. But it gives you enough visual information to make real decisions. You see the room in saturated color and know immediately whether you want to live with that much visual weight.</p>
 
@@ -66,13 +66,13 @@ export default function Page() {
 
 <p>AI room tools are not magic. They work best with clear, well-lit photos taken from a corner of the room. If your photo is dim, cluttered, or taken from a weird angle, the AI will produce something that looks like a video game render from 2015.</p>
 
-<p>The tools also struggle with extreme customization. If you want "art deco but make it desert modernism with a Japanese influence," you'll get something confused. The style categories are broad. You're better off running the image twice—once as art deco, once as midcentury—and mentally blending the results.</p>
+<p>The tools also struggle with extreme customization. If you want "art deco but make it desert modernism with a Japanese influence," you'll get something confused. The style categories are broad. You're better off running the image twice - once as art deco, once as midcentury - and mentally blending the results.</p>
 
 <p>And the AI will occasionally hallucinate architecture. It might add a window where your wall is, or remove a door, or invent a built-in bookshelf. Treat the output as a suggestion, not a blueprint.</p>
 
 <h2>Best Tools for Art Deco AI Rendering</h2>
 
-<p>Reimagine Home offers one of the cleaner art deco outputs, with good metallic detailing and realistic fabric textures. Plans start at $19 for 50 renders. Spacely AI has a slightly more saturated color palette, which works well if you want the high-drama version of the style. Starts at $15/month. AltorLab gives you high flexibility on style intensity and lets you tweak the level of redesign—useful if you only want to change the decor, not the furniture layout. Starts at $9.</p>
+<p>Reimagine Home offers one of the cleaner art deco outputs, with good metallic detailing and realistic fabric textures. Plans start at $19 for 50 renders. Spacely AI has a slightly more saturated color palette, which works well if you want the high-drama version of the style. Starts at $15/month. AltorLab gives you high flexibility on style intensity and lets you tweak the level of redesign - useful if you only want to change the decor, not the furniture layout. Starts at $9.</p>
 
 <p>All three let you download high-res images. All three work on mobile. None require a subscription if you just want to run a one-time test.</p>
 
@@ -83,7 +83,7 @@ export default function Page() {
 <p>Not directly. The AI generates colors visually, but doesn't output paint codes. You'll need to match the render to a brand like Benjamin Moore or Sherwin-Williams manually, either by eye or by uploading a screenshot to a paint-matching tool. Some users take the AI render to a hardware store and use the store's color matcher.</p>
 
 <h3>Will the furniture in the AI render look like real products I can buy?</h3>
-<p>Rarely. The AI invents furniture based on the style, but it's not pulling from catalogs. You use the render as a reference—look for similar shapes, finishes, and proportions on Wayfair, West Elm, or Facebook Marketplace. Reverse image search on Pinterest sometimes helps.</p>
+<p>Rarely. The AI invents furniture based on the style, but it's not pulling from catalogs. You use the render as a reference - look for similar shapes, finishes, and proportions on Wayfair, West Elm, or Facebook Marketplace. Reverse image search on Pinterest sometimes helps.</p>
 
 <h3>Do these tools work if my apartment has weird proportions?</h3>
 <p>Yes, as long as your photo clearly shows the shape of the room. AI tools handle narrow layouts, low ceilings, and awkward corners better than you'd expect. The output may not be architecturally perfect, but it gives you enough visual information to adapt the style to your space.</p>
@@ -92,7 +92,7 @@ export default function Page() {
 <p>Depends on how faithful you want to be. If you focus on paint, one statement piece of furniture, and a few accessories, you can execute a version for $300-$600. If you want new upholstery, custom millwork, or high-end lighting, it can run $3,000+. Most people land somewhere in between by mixing budget finds with one or two investment pieces.</p>
 </section>
 
-<p>Try it — starting at $9 at <a href="https://app.altorlab.org">https://app.altorlab.org</a></p>` }} />
+<p>Try it - starting at $9 at <a href="https://app.altorlab.org">https://app.altorlab.org</a></p>` }} />
         </article>
         <footer className="mt-12 pt-4 border-t border-gray-800 text-gray-500 text-sm">
           Published April 10, 2026

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AltorLab Accessibility",
+  "url": "https://altorlab.app",
+  "description": "Free ADA and WCAG 2.1 compliance scanner for US websites. Identify accessibility violations, get prioritized fixes, and meet ADA Title III requirements.",
+  "foundingDate": "2025",
+  "areaServed": "US",
+  "inLanguage": "en-US",
+  "serviceType": "Website Accessibility Scanner",
+  "offers": {
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "sameAs": [
+    "https://altorlab.com"
+  ],
+  "contactPoint": {
+    "email": "hello@altorlab.org"
+  },
+  "knowsAbout": [
+    "ADA compliance",
+    "WCAG 2.1",
+    "accessibility scanner",
+    "website accessibility",
+    "ADA website audit"
+  ]
+}
